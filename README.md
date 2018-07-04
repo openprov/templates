@@ -37,12 +37,8 @@ this repository, we adopt the following principles.
  * The structure of the repository mandates versions of templates to be explicit, ensuring template identifiers remain persistent over time.  By adopting the "COOL URI" principle, we facilitate imaginative forms of provenance storage and processing to be conceived, in which template and bindings are managed separately where approapriate.
 
 
-## 2. Template Expansion Microservice
 
-For convenience, we will aim to expose templates directly through openprovenance at 
-https://openprovenance.org/templates/
-
-## 3. Repository Structure
+## 2. Repository Structure
 
 The repository structure is as follows.
 
@@ -60,8 +56,14 @@ All templates for an application are stored in a single folder for that applicat
 
 All the versions of a template are stored in a folder whose name is that of the template.  In this example, we find two versions in the folder `footemplate`: `1.provn` and `2.trig`.  Versions are simply named by their number and are allowed to use any PROV recognised serialization.
 
-Whenever there is a template `1.provn`, the folder `1/` at the same level contains examples of bindings.
+Whenever there is a template `1.provn`, the folder `1/` at the same level contains examples of bindings. Any name can be used for the bindings examples: `example1.json` and `another_example.json` in this instance. Both are using the JSON serialisation of bindings.
 
 
+
+
+## 3. Template Expansion Microservice
+
+For convenience, we will aim to expose templates directly through openprovenance at 
+https://openprovenance.org/templates/
 
 
