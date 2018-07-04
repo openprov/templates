@@ -2,6 +2,10 @@ document
   prefix tmpl <http://openprovenance.org/tmpl#>
   prefix var <http://openprovenance.org/var#>
   prefix vargen <http://openprovenance.org/vargen#>
+  prefix repo <http://openprovenance.org/templates>  
+
+  entity(repo:org/openprovenance/generic/1)
+  wasAttributedTo(repo:org/openprovenance/generic/1,repo:lucmoreau)
 
   bundle vargen:b
     activity(var:operation, [prov:type='var:operation_type'] )
@@ -16,4 +20,5 @@ document
     wasDerivedFrom(var:produced, var:consumed1)
     wasDerivedFrom(var:produced, var:consumed2)
   endBundle
+
 endDocument

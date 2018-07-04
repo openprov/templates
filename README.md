@@ -23,7 +23,9 @@ Governance of the Repository
 
 This repository contains free provenance templates allowing best
 practice provenance to be shared and reused in any application.  We
-invite the community to contribute templates to this repository.  To ensure reusability and most reliable generation of provenance from this repository, we adopt the following principles:
+invite the community to contribute templates to this repository.  To
+ensure reusability and most reliable generation of provenance from
+this repository, we adopt the following principles.
 
 
 An Open Repository
@@ -37,10 +39,14 @@ A Stable Repository
  * The structure of the repository mandates versions of templates to be explicit, ensuring template identifiers remain persistent over time.  By adopting the "COOL URI" principle, we facilitate imaginative forms of provenance storage and processing to be conceived, in which template and bindings are managed separately where approapriate.
 
 
-Convenience API
+Template expansion Microservice
+-------------------------------
 
- *
+For convenience, we will aim to expose templates directly through openprovenance at 
+https://openprovenance.org/templates/
 
+Repository Struture
+-------------------
 
 
 
