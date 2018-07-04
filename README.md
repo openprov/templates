@@ -16,7 +16,7 @@ serialisation formats supported by PROV.
 PROV-TEMPLATE is described in *Luc Moreau, Belfrit Victor Batlajery,
 Trung Dong Huynh, Danius Michaelides, and Heather Packer. A templating
 system to generate provenance. IEEE Transactions on Software
-Engineering, April 2017* [doi:10.1109/TSE.2017.2659745](http://dx.doi.org/10.1109/TSE.2017.2659745).
+Engineering, April 2017* [(doi:10.1109/TSE.2017.2659745)](http://dx.doi.org/10.1109/TSE.2017.2659745).
 
 Governance of the Repository
 ----------------------------
