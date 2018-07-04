@@ -42,11 +42,25 @@ this repository, we adopt the following principles.
 For convenience, we will aim to expose templates directly through openprovenance at 
 https://openprovenance.org/templates/
 
-## 3. Repository Struture
+## 3. Repository Structure
 
+The repository structure is as follows.
 
+All templates for an application are stored in a single folder for that application. To avoid conflicts of names, we use the reverse Internet domain name to create a hierarchy structure in which this folder appears.  In the example below, `example.com` is the domain name to create the directory structure `/com/example/`, in which we can find application `application1`.
 
+```
 
+/com/example/application1/footemplate/1.provn
+/com/example/application1/footemplate/1/example1.json
+/com/example/application1/footemplate/1/another_example.json
+/com/example/application1/footemplate/2.trig
+/com/example/application1/footemplate/2/example.json
+
+```
+
+All the versions of a template are stored in a folder whose name is that of the template.  In this example, we find two versions in the folder `footemplate`: `1.provn` and `2.trig`.  Versions are simply named by their number and are allowed to use any PROV recognised serialization.
+
+Whenever there is a template `1.provn`, the folder `1/` at the same level contains examples of bindings.
 
 
 
