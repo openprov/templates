@@ -58,12 +58,13 @@ All the versions of a template are stored in a folder whose name is that of the 
 
 Whenever there is a template `1.provn`, the folder `1/` at the same level contains examples of bindings. Any name can be used for the bindings examples: `example1.json` and `another_example.json` in this instance. Both are using the JSON serialisation of bindings.
 
-
-
+All folders and file names must consist of lower cases, digits and special characters(`-` and `_`).  White spaces are not allowed. The purpose of these restrictions is to facilitate the mapping to URLs as discussed in the next section.
 
 ## 3. Template Expansion Microservice
 
 For convenience, we will aim to expose templates directly through openprovenance at 
 https://openprovenance.org/templates/
+
+
 
 
