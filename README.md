@@ -65,7 +65,7 @@ Whenever there is a template `1.provn`, the folder `1/` at the same level contai
 
 All folders and file names must consist of lower cases, digits and special characters(`-` and `_`).  White spaces are not allowed. The purpose of these restrictions is to facilitate the mapping to URLs as discussed in the next section.
 
-Optionally, in the `footemplate`, we can alson find png visualisations of the template, and a `README.md` file containing a textual description (and potentially reference to the visual repesentations) of the templates.
+Optionally, in the `footemplate` folder, we can also find png visualisations of the templates, and a `README.md` file containing a textual description (and potentially reference to the visual repesentations) of the templates.
 
 ## 3. Template Expansion Microservice
 
