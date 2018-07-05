@@ -52,6 +52,11 @@ All templates for an application are stored in a single folder for that applicat
 /com/example/application1/footemplate/2.trig
 /com/example/application1/footemplate/2/example.json
 
+# optionally:
+/com/example/application1/footemplate/1.png
+/com/example/application1/footemplate/2.png
+/com/example/application1/footemplate/README.md
+
 ```
 
 All the versions of a template are stored in a folder whose name is that of the template.  In this example, we find two versions in the folder `footemplate`: `1.provn` and `2.trig`.  Versions are simply named by their number and are allowed to use any PROV recognised serialization.
@@ -59,6 +64,8 @@ All the versions of a template are stored in a folder whose name is that of the 
 Whenever there is a template `1.provn`, the folder `1/` at the same level contains examples of bindings. Any name can be used for the bindings examples: `example1.json` and `another_example.json` in this instance. Both are using the JSON serialisation of bindings.
 
 All folders and file names must consist of lower cases, digits and special characters(`-` and `_`).  White spaces are not allowed. The purpose of these restrictions is to facilitate the mapping to URLs as discussed in the next section.
+
+Optionally, in the `footemplate`, we can alson find png visualisations of the template, and a `README.md` file containing a textual description (and potentially reference to the visual repesentations) of the templates.
 
 ## 3. Template Expansion Microservice
 
