@@ -1,0 +1,11 @@
+
+
+AddHandler type-map var
+
+DirectorySlash Off
+
+RewriteEngine on
+RewriteBase /provapi/documents
+RewriteRule 1$  1.var 
+
+
