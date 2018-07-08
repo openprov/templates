@@ -1,0 +1,26 @@
+URI: 1
+
+URI: 1.provn
+Content-Type: text/provenance-notation
+
+URI: 1.provx
+Content-Type: application/provenance+xml
+
+URI: 1.ttl
+Content-Type: text/turtle; qs=0.5
+
+URI: 1.rdf
+Content-Type: applicatin/rdf+xml; qs=0.5
+
+URI: 1.json
+Content-Type: application/json
+
+URI: 1.svg
+Content-Type: image/svg+xml
+
+URI: 1.jpg
+Content-Type: image/jpg
+
+URI: 1.trig
+Content-Type: application/trig
+
