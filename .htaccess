@@ -1,0 +1,10 @@
+AddType text/provenance-notation .provn
+AddType application/provenance+xml .provx
+AddType text/turtle .ttl
+AddType application/rdf+xml .rdf
+AddType application/trig .trig
+AddType image/svg+xml .svg
+
+AddHandler type-map var
+
+
