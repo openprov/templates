@@ -8,3 +8,6 @@ AddType image/svg+xml .svg
 AddHandler type-map var
 
 
+SetEnvIf Request_URI "(.*)" requested_uri=$1
+
+Header append Link  "<http://www.provbook.org/provenance>; rel=\"http://www.w3.org/ns/prov#has_provenance\"; anchor=\"http://www.provbook.org%{requested_uri}e\""
