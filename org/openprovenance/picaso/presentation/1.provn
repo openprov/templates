@@ -1,0 +1,22 @@
+document
+prefix vargen <http://openprovenance.org/vargen#>
+prefix tmpl <http://openprovenance.org/tmpl#>
+prefix pic <http://www.ipaw.info/ns/picaso#>
+prefix var <http://openprovenance.org/var#>
+prefix ui <http://openprovenance.org/ui#>
+bundle vargen:bundleId
+prefix vargen <http://openprovenance.org/vargen#>
+prefix tmpl <http://openprovenance.org/tmpl#>
+prefix pic <http://www.ipaw.info/ns/picaso#>
+prefix var <http://openprovenance.org/var#>
+prefix ui <http://openprovenance.org/ui#>
+
+wasAssociatedWith(vargen:presenting,var:presenter,var:session)
+wasAssociatedWith(vargen:presenting,var:presenter,var:slides)
+used(vargen:presenting,var:slides,-)
+agent(var:presenter,[prov:type = 'var:presenterType', tmpl:label = 'var:presenterName', ui:minimum = "1" %% xsd:int, ui:type = 'pic:Person'])
+entity(var:session,[ui:maximum = "1" %% xsd:int, ui:minimum = "0" %% xsd:int, ui:type = 'pic:ScheduledSession'])
+entity(var:slides,[prov:type = 'var:slidesType', ui:minimum = "1" %% xsd:int, ui:type = 'pic:Slides'])
+activity(vargen:presenting,-,-,[ui:maximum = "1" %% xsd:int, ui:minimum = "1" %% xsd:int, ui:type = 'pic:PresentationActivity'])
+endBundle
+endDocument

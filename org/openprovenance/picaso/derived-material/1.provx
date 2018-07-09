@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:ns3="http://openprovenance.org/prov/extension#" xmlns:vargen="http://openprovenance.org/vargen#" xmlns:tmpl="http://openprovenance.org/tmpl#" xmlns:ui="http://openprovenance.org/ui#" xmlns:var="http://openprovenance.org/var#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:pic="http://www.ipaw.info/ns/picaso#">
+    <prov:bundleContent prov:id="vargen:bundleId">
+        <prov:wasDerivedFrom>
+            <prov:generatedEntity prov:ref="var:derived"/>
+            <prov:usedEntity prov:ref="var:work"/>
+        </prov:wasDerivedFrom>
+        <prov:entity prov:id="var:work">
+            <prov:type xsi:type="xsd:QName">var:workType</prov:type>
+            <ui:maximum xsi:type="xsd:int">1</ui:maximum>
+            <ui:minimum xsi:type="xsd:int">1</ui:minimum>
+            <ui:type xsi:type="xsd:QName">pic:Book</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Table</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Figure</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Article</ui:type>
+        </prov:entity>
+        <prov:entity prov:id="var:derived">
+            <prov:type xsi:type="xsd:QName">var:derivedType</prov:type>
+            <tmpl:label xsi:type="xsd:QName">var:derivedTitle</tmpl:label>
+            <ui:type xsi:type="xsd:QName">pic:Slides</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Poster</ui:type>
+        </prov:entity>
+    </prov:bundleContent>
+</prov:document>

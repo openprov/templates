@@ -1,0 +1,29 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix vargen: <http://openprovenance.org/vargen#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix pic: <http://www.ipaw.info/ns/picaso#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://openprovenance.org/ui#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix tmpl: <http://openprovenance.org/tmpl#> .
+@prefix var: <http://openprovenance.org/var#> .
+
+
+vargen:bundleId {
+	_:blank1 a prov:Derivation ;
+		prov:entity var:work .
+	
+	var:tweet prov:qualifiedDerivation _:blank1 .
+	
+	_:blank1 a pic:Mention .
+	
+	var:tweet a prov:Entity , pic:Tweet ;
+		tmpl:label var:tweetContent ;
+		ui:minimum "1"^^xsd:int ;
+		ui:type pic:Tweet .
+	
+	var:work a prov:Entity , var:workType ;
+		ui:maximum "1"^^xsd:int ;
+		ui:minimum "1"^^xsd:int ;
+		ui:type pic:Book , pic:Table , pic:Figure , pic:Article .
+}

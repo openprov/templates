@@ -1,0 +1,18 @@
+document
+prefix vargen <http://openprovenance.org/vargen#>
+prefix tmpl <http://openprovenance.org/tmpl#>
+prefix pic <http://www.ipaw.info/ns/picaso#>
+prefix var <http://openprovenance.org/var#>
+prefix ui <http://openprovenance.org/ui#>
+bundle vargen:bundleId
+prefix vargen <http://openprovenance.org/vargen#>
+prefix tmpl <http://openprovenance.org/tmpl#>
+prefix pic <http://www.ipaw.info/ns/picaso#>
+prefix var <http://openprovenance.org/var#>
+prefix ui <http://openprovenance.org/ui#>
+
+wasAssociatedWith(var:project,var:person,-,[prov:role = 'var:role'])
+agent(var:person,[prov:type = 'prov:Person', tmpl:label = 'var:personName', ui:minimum = "1" %% xsd:int, ui:type = 'prov:Person'])
+activity(var:project,-,-,[prov:type = 'pic:Project', tmpl:startTime = 'var:startTime', tmpl:endTime = 'var:endTime', ui:type = 'pic:Project', ui:maximum = "1" %% xsd:int, ui:minimum = "1" %% xsd:int, tmpl:label = 'var:projectTitle'])
+endBundle
+endDocument

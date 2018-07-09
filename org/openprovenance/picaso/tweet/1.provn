@@ -1,0 +1,18 @@
+document
+prefix vargen <http://openprovenance.org/vargen#>
+prefix tmpl <http://openprovenance.org/tmpl#>
+prefix pic <http://www.ipaw.info/ns/picaso#>
+prefix var <http://openprovenance.org/var#>
+prefix ui <http://openprovenance.org/ui#>
+bundle vargen:bundleId
+prefix vargen <http://openprovenance.org/vargen#>
+prefix tmpl <http://openprovenance.org/tmpl#>
+prefix pic <http://www.ipaw.info/ns/picaso#>
+prefix var <http://openprovenance.org/var#>
+prefix ui <http://openprovenance.org/ui#>
+
+wasDerivedFrom(var:tweet, var:work,[prov:type = 'pic:Mention'])
+entity(var:tweet,[prov:type = 'pic:Tweet', tmpl:label = 'var:tweetContent', ui:minimum = "1" %% xsd:int, ui:type = 'pic:Tweet'])
+entity(var:work,[prov:type = 'var:workType', ui:maximum = "1" %% xsd:int, ui:minimum = "1" %% xsd:int, ui:type = 'pic:Book', ui:type = 'pic:Table', ui:type = 'pic:Figure', ui:type = 'pic:Article'])
+endBundle
+endDocument

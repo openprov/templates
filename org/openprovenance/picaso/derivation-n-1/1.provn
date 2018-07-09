@@ -1,0 +1,17 @@
+document
+prefix vargen <http://openprovenance.org/vargen#>
+prefix tmpl <http://openprovenance.org/tmpl#>
+prefix pic <http://www.ipaw.info/ns/picaso#>
+prefix var <http://openprovenance.org/var#>
+prefix ui <http://openprovenance.org/ui#>
+bundle vargen:bundleId
+prefix vargen <http://openprovenance.org/vargen#>
+prefix tmpl <http://openprovenance.org/tmpl#>
+prefix var <http://openprovenance.org/var#>
+prefix ui <http://openprovenance.org/ui#>
+
+wasDerivedFrom(var:e2, var:e1)
+entity(var:e2,[prov:type = 'var:e2Type', ui:minimum = "1" %% xsd:int, tmpl:label = 'var:e2Title'])
+entity(var:e1,[prov:type = 'var:e1Type', ui:maximum = "1" %% xsd:int, ui:minimum = "1" %% xsd:int, tmpl:label = 'var:e1Title'])
+endBundle
+endDocument

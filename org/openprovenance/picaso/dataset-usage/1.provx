@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:prov="http://www.w3.org/ns/prov#" xmlns:ns2="http://openprovenance.org/prov/extension#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:vargen="http://openprovenance.org/vargen#" xmlns:tmpl="http://openprovenance.org/tmpl#" xmlns:ui="http://openprovenance.org/ui#" xmlns:var="http://openprovenance.org/var#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:pic="http://www.ipaw.info/ns/picaso#">
+    <prov:bundleContent prov:id="vargen:bundleId">
+        <prov:wasDerivedFrom>
+            <prov:generatedEntity prov:ref="var:work"/>
+            <prov:usedEntity prov:ref="var:dataset"/>
+            <prov:type xsi:type="xsd:QName">pic:BasedOn</prov:type>
+        </prov:wasDerivedFrom>
+        <prov:entity prov:id="var:work">
+            <prov:type xsi:type="xsd:QName">var:workType</prov:type>
+            <ui:maximum xsi:type="xsd:int">1</ui:maximum>
+            <ui:minimum xsi:type="xsd:int">1</ui:minimum>
+            <ui:type xsi:type="xsd:QName">pic:Book</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Table</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Figure</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Article</ui:type>
+        </prov:entity>
+        <prov:entity prov:id="var:dataset">
+            <prov:type xsi:type="xsd:QName">var:datasetType</prov:type>
+            <tmpl:label xsi:type="xsd:QName">var:datasetTitle</tmpl:label>
+            <ui:minimum xsi:type="xsd:int">1</ui:minimum>
+            <ui:type xsi:type="xsd:QName">pic:Dataset</ui:type>
+        </prov:entity>
+    </prov:bundleContent>
+</prov:document>

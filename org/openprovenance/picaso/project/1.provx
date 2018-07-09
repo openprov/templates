@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:prov="http://www.w3.org/ns/prov#" xmlns:ns2="http://openprovenance.org/prov/extension#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:vargen="http://openprovenance.org/vargen#" xmlns:tmpl="http://openprovenance.org/tmpl#" xmlns:ui="http://openprovenance.org/ui#" xmlns:var="http://openprovenance.org/var#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:pic="http://www.ipaw.info/ns/picaso#">
+    <prov:bundleContent prov:id="vargen:bundleId">
+        <prov:wasAssociatedWith>
+            <prov:activity prov:ref="var:project"/>
+            <prov:agent prov:ref="var:person"/>
+            <prov:role xsi:type="xsd:QName">var:role</prov:role>
+        </prov:wasAssociatedWith>
+        <prov:agent prov:id="var:person">
+            <prov:type xsi:type="xsd:QName">prov:Person</prov:type>
+            <tmpl:label xsi:type="xsd:QName">var:personName</tmpl:label>
+            <ui:minimum xsi:type="xsd:int">1</ui:minimum>
+            <ui:type xsi:type="xsd:QName">prov:Person</ui:type>
+        </prov:agent>
+        <prov:activity prov:id="var:project">
+            <prov:type xsi:type="xsd:QName">pic:Project</prov:type>
+            <tmpl:startTime xsi:type="xsd:QName">var:startTime</tmpl:startTime>
+            <tmpl:endTime xsi:type="xsd:QName">var:endTime</tmpl:endTime>
+            <ui:type xsi:type="xsd:QName">pic:Project</ui:type>
+            <ui:maximum xsi:type="xsd:int">1</ui:maximum>
+            <ui:minimum xsi:type="xsd:int">1</ui:minimum>
+            <tmpl:label xsi:type="xsd:QName">var:projectTitle</tmpl:label>
+        </prov:activity>
+    </prov:bundleContent>
+</prov:document>

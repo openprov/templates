@@ -1,0 +1,20 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix vargen: <http://openprovenance.org/vargen#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix pic: <http://www.ipaw.info/ns/picaso#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://openprovenance.org/ui#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix tmpl: <http://openprovenance.org/tmpl#> .
+@prefix var: <http://openprovenance.org/var#> .
+
+
+var:e2 prov:wasDerivedFrom var:e1 ;
+	a prov:Entity , var:e2Type ;
+	ui:minimum "1"^^xsd:int ;
+	tmpl:label var:e2Title .
+
+var:e1 a prov:Entity , var:e1Type ;
+	ui:maximum "1"^^xsd:int ;
+	ui:minimum "1"^^xsd:int ;
+	tmpl:label var:e1Title .
