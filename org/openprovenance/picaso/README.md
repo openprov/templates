@@ -29,17 +29,11 @@ Dataset used in the preparation of a paper
 
 [![Dataset-Usage template](dataset-usage/1.png)](dataset-usage)
 
-## Derivation (n ← 1)
+## Derivation
 
-One derived from many
+Generic derivation between two entities
 
-[![Derivation (n ← 1) template](derivation-n-1/1.png)](derivation-n-1)
-
-## Derivation (1 ← n)
-
-Multiple derived from one
-
-[![Derivation (1 ← n) template](derivation-1-n/1.png)](derivation-1-n)
+[![Derivation template](derivation/1.png)](derivation)
 
 ## Derived-Material
 
