@@ -1,18 +1,17 @@
 document
-prefix vargen <http://openprovenance.org/vargen#>
-prefix tmpl <http://openprovenance.org/tmpl#>
-prefix pic <http://www.ipaw.info/ns/picaso#>
-prefix var <http://openprovenance.org/var#>
-prefix ui <http://openprovenance.org/ui#>
-bundle vargen:bundleId
-prefix vargen <http://openprovenance.org/vargen#>
-prefix tmpl <http://openprovenance.org/tmpl#>
-prefix pic <http://www.ipaw.info/ns/picaso#>
-prefix var <http://openprovenance.org/var#>
-prefix ui <http://openprovenance.org/ui#>
+	prefix vargen <http://openprovenance.org/vargen#>
+	prefix tmpl <http://openprovenance.org/tmpl#>
+	prefix var <http://openprovenance.org/var#>
+	prefix pic <http://www.ipaw.info/ns/picaso#>
 
-hadMember(var:program,var:session)
-entity(var:session,[prov:type = 'pic:ScheduledSession', ui:minimum = "1" %% xsd:int, pic:start = 'var:start', pic:end = 'var:end', tmpl:label = 'var:title', pic:type = 'prov:Plan'])
-entity(var:program,[prov:type = 'pic:ScheduledProgram', prov:type = 'prov:Collection', prov:type = 'prov:Plan', ui:maximum = "1" %% xsd:int, ui:minimum = "1" %% xsd:int])
-endBundle
+	bundle vargen:bundleId
+		prefix vargen <http://openprovenance.org/vargen#>
+		prefix tmpl <http://openprovenance.org/tmpl#>
+		prefix var <http://openprovenance.org/var#>
+		prefix pic <http://www.ipaw.info/ns/picaso#>
+
+		entity(var:program, [prov:type = 'pic:ScheduledProgram', prov:type = 'prov:Collection', prov:type = 'prov:Plan'])
+		entity(var:session, [prov:type = 'pic:ScheduledSession', pic:end = 'var:end', pic:start = 'var:start', pic:type = 'prov:Plan', tmpl:label = 'var:title'])
+		hadMember(var:program, var:session)
+	endBundle
 endDocument

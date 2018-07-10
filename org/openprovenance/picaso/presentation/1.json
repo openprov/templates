@@ -1,1 +1,70 @@
-{"prefix": {"var": "http://openprovenance.org/var#", "tmpl": "http://openprovenance.org/tmpl#", "pic": "http://www.ipaw.info/ns/picaso#", "ui": "http://openprovenance.org/ui#", "vargen": "http://openprovenance.org/vargen#"}, "bundle": {"vargen:bundleId": {"wasAssociatedWith": {"_:id1": {"prov:plan": "var:session", "prov:agent": "var:presenter", "prov:activity": "vargen:presenting"}, "_:id2": {"prov:plan": "var:slides", "prov:agent": "var:presenter", "prov:activity": "vargen:presenting"}}, "used": {"_:id3": {"prov:entity": "var:slides", "prov:activity": "vargen:presenting"}}, "agent": {"var:presenter": {"tmpl:label": {"type": "prov:QUALIFIED_NAME", "$": "var:presenterName"}, "prov:type": {"type": "prov:QUALIFIED_NAME", "$": "var:presenterType"}, "ui:minimum": {"type": "xsd:int", "$": 1}, "ui:type": {"type": "prov:QUALIFIED_NAME", "$": "pic:Person"}}}, "entity": {"var:session": {"ui:maximum": {"type": "xsd:int", "$": 1}, "ui:minimum": {"type": "xsd:int", "$": 0}, "ui:type": {"type": "prov:QUALIFIED_NAME", "$": "pic:ScheduledSession"}}, "var:slides": {"prov:type": {"type": "prov:QUALIFIED_NAME", "$": "var:slidesType"}, "ui:minimum": {"type": "xsd:int", "$": 1}, "ui:type": {"type": "prov:QUALIFIED_NAME", "$": "pic:Slides"}}}, "prefix": {"var": "http://openprovenance.org/var#", "tmpl": "http://openprovenance.org/tmpl#", "pic": "http://www.ipaw.info/ns/picaso#", "ui": "http://openprovenance.org/ui#", "vargen": "http://openprovenance.org/vargen#"}, "activity": {"vargen:presenting": {"ui:maximum": {"type": "xsd:int", "$": 1}, "ui:minimum": {"type": "xsd:int", "$": 1}, "ui:type": {"type": "prov:QUALIFIED_NAME", "$": "pic:PresentationActivity"}}}}}}
+{
+  "bundle": {
+    "vargen:bundleId": {
+      "activity": {
+        "vargen:presenting": {
+          "prov:type": {
+            "$": "pic:PresentationActivity",
+            "type": "prov:QUALIFIED_NAME"
+          }
+        }
+      },
+      "agent": {
+        "var:presenter": {
+          "prov:type": {
+            "$": "var:presenterType",
+            "type": "prov:QUALIFIED_NAME"
+          },
+          "tmpl:label": {
+            "$": "var:presenterName",
+            "type": "prov:QUALIFIED_NAME"
+          }
+        }
+      },
+      "entity": {
+        "var:session": {
+          "prov:type": {
+            "$": "pic:ScheduledSession",
+            "type": "prov:QUALIFIED_NAME"
+          }
+        },
+        "var:slides": {
+          "prov:type": {
+            "$": "var:slidesType",
+            "type": "prov:QUALIFIED_NAME"
+          }
+        }
+      },
+      "prefix": {
+        "pic": "http://www.ipaw.info/ns/picaso#",
+        "tmpl": "http://openprovenance.org/tmpl#",
+        "var": "http://openprovenance.org/var#",
+        "vargen": "http://openprovenance.org/vargen#"
+      },
+      "used": {
+        "_:id3": {
+          "prov:activity": "vargen:presenting",
+          "prov:entity": "var:slides"
+        }
+      },
+      "wasAssociatedWith": {
+        "_:id1": {
+          "prov:activity": "vargen:presenting",
+          "prov:agent": "var:presenter",
+          "prov:plan": "var:session"
+        },
+        "_:id2": {
+          "prov:activity": "vargen:presenting",
+          "prov:agent": "var:presenter",
+          "prov:plan": "var:slides"
+        }
+      }
+    }
+  },
+  "prefix": {
+    "pic": "http://www.ipaw.info/ns/picaso#",
+    "tmpl": "http://openprovenance.org/tmpl#",
+    "var": "http://openprovenance.org/var#",
+    "vargen": "http://openprovenance.org/vargen#"
+  }
+}

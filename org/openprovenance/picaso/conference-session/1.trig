@@ -1,25 +1,21 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix vargen: <http://openprovenance.org/vargen#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix pic: <http://www.ipaw.info/ns/picaso#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix ui: <http://openprovenance.org/ui#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vargen: <http://openprovenance.org/vargen#> .
 @prefix tmpl: <http://openprovenance.org/tmpl#> .
+@prefix pic: <http://www.ipaw.info/ns/picaso#> .
 @prefix var: <http://openprovenance.org/var#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 
 vargen:bundleId {
-	var:program prov:hadMember var:session .
+	var:program a prov:Entity , pic:ScheduledProgram , prov:Collection , prov:Plan .
 	
 	var:session a prov:Entity , pic:ScheduledSession ;
-		ui:minimum "1"^^xsd:int ;
-		pic:start var:start ;
 		pic:end var:end ;
-		tmpl:label var:title ;
-		pic:type prov:Plan .
+		pic:start var:start ;
+		pic:type prov:Plan ;
+		tmpl:label var:title .
 	
-	var:program a prov:Entity , pic:ScheduledProgram , prov:Collection , prov:Plan ;
-		ui:maximum "1"^^xsd:int ;
-		ui:minimum "1"^^xsd:int .
+	var:program prov:hadMember var:session .
 }

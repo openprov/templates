@@ -1,18 +1,17 @@
 document
-prefix vargen <http://openprovenance.org/vargen#>
-prefix tmpl <http://openprovenance.org/tmpl#>
-prefix pic <http://www.ipaw.info/ns/picaso#>
-prefix var <http://openprovenance.org/var#>
-prefix ui <http://openprovenance.org/ui#>
-bundle vargen:bundleId
-prefix vargen <http://openprovenance.org/vargen#>
-prefix tmpl <http://openprovenance.org/tmpl#>
-prefix pic <http://www.ipaw.info/ns/picaso#>
-prefix var <http://openprovenance.org/var#>
-prefix ui <http://openprovenance.org/ui#>
+	prefix vargen <http://openprovenance.org/vargen#>
+	prefix tmpl <http://openprovenance.org/tmpl#>
+	prefix var <http://openprovenance.org/var#>
+	prefix pic <http://www.ipaw.info/ns/picaso#>
 
-hadMember(var:paper,var:element)
-entity(var:element,[prov:type = 'var:elementType', pic:linkTo = 'var:link', tmpl:label = 'var:elementTitle', ui:minimum = "1" %% xsd:int, ui:type = 'pic:Table', ui:type = 'pic:Figure'])
-entity(var:paper,[prov:type = 'var:paperType', ui:maximum = "1" %% xsd:int, tmpl:label = 'var:title', ui:minimum = "1" %% xsd:int, ui:type = 'pic:Book', ui:type = 'pic:Article'])
-endBundle
+	bundle vargen:bundleId
+		prefix vargen <http://openprovenance.org/vargen#>
+		prefix tmpl <http://openprovenance.org/tmpl#>
+		prefix var <http://openprovenance.org/var#>
+		prefix pic <http://www.ipaw.info/ns/picaso#>
+
+		entity(var:element, [prov:type = 'var:elementType', pic:linkTo = 'var:link', tmpl:label = 'var:elementTitle'])
+		entity(var:paper, [prov:type = 'var:paperType', tmpl:label = 'var:title'])
+		hadMember(var:paper, var:element)
+	endBundle
 endDocument

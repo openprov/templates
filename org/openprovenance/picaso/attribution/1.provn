@@ -1,18 +1,17 @@
 document
-prefix vargen <http://openprovenance.org/vargen#>
-prefix tmpl <http://openprovenance.org/tmpl#>
-prefix pic <http://www.ipaw.info/ns/picaso#>
-prefix var <http://openprovenance.org/var#>
-prefix ui <http://openprovenance.org/ui#>
-bundle vargen:bundleId
-prefix vargen <http://openprovenance.org/vargen#>
-prefix tmpl <http://openprovenance.org/tmpl#>
-prefix pic <http://www.ipaw.info/ns/picaso#>
-prefix var <http://openprovenance.org/var#>
-prefix ui <http://openprovenance.org/ui#>
+	prefix vargen <http://openprovenance.org/vargen#>
+	prefix tmpl <http://openprovenance.org/tmpl#>
+	prefix var <http://openprovenance.org/var#>
+	prefix pic <http://www.ipaw.info/ns/picaso#>
 
-entity(var:paper,[prov:type = 'var:paperType', ui:maximum = "1" %% xsd:int, tmpl:label = 'var:title', ui:minimum = "1" %% xsd:int, ui:type = 'pic:Article'])
-agent(var:author,[prov:type = 'var:authorType', tmpl:label = 'var:authorName', ui:minimum = "1" %% xsd:int, ui:type = 'prov:Organization', ui:type = 'prov:Person'])
-wasAttributedTo(var:paper, var:author,[prov:type = 'var:attributionType', ui:type = 'pic:Author', ui:type = 'pic:Contributor', ui:type = 'pic:Reviewer', ui:type = 'pic:Funder', ui:type = 'pic:Editor'])
-endBundle
+	bundle vargen:bundleId
+		prefix vargen <http://openprovenance.org/vargen#>
+		prefix tmpl <http://openprovenance.org/tmpl#>
+		prefix var <http://openprovenance.org/var#>
+		prefix pic <http://www.ipaw.info/ns/picaso#>
+
+		agent(var:author, [prov:type = 'var:authorType', tmpl:label = 'var:authorName'])
+		entity(var:paper, [prov:type = 'var:paperType', tmpl:label = 'var:title'])
+		wasAttributedTo(var:paper, var:author, [prov:type = 'var:attributionType'])
+	endBundle
 endDocument

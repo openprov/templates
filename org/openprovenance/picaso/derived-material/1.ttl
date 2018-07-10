@@ -1,21 +1,16 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix vargen: <http://openprovenance.org/vargen#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix pic: <http://www.ipaw.info/ns/picaso#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix ui: <http://openprovenance.org/ui#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vargen: <http://openprovenance.org/vargen#> .
 @prefix tmpl: <http://openprovenance.org/tmpl#> .
+@prefix pic: <http://www.ipaw.info/ns/picaso#> .
 @prefix var: <http://openprovenance.org/var#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-
-var:derived prov:wasDerivedFrom var:work .
-
-var:work a prov:Entity , var:workType ;
-	ui:maximum "1"^^xsd:int ;
-	ui:minimum "1"^^xsd:int ;
-	ui:type pic:Book , pic:Table , pic:Figure , pic:Article .
 
 var:derived a prov:Entity , var:derivedType ;
-	tmpl:label var:derivedTitle ;
-	ui:type pic:Slides , pic:Poster .
+	tmpl:label var:derivedTitle .
+
+var:work a prov:Entity , var:workType .
+
+var:derived prov:wasDerivedFrom var:work .

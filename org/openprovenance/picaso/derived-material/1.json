@@ -1,1 +1,42 @@
-{"prefix": {"var": "http://openprovenance.org/var#", "tmpl": "http://openprovenance.org/tmpl#", "pic": "http://www.ipaw.info/ns/picaso#", "ui": "http://openprovenance.org/ui#", "vargen": "http://openprovenance.org/vargen#"}, "bundle": {"vargen:bundleId": {"wasDerivedFrom": {"_:id1": {"prov:usedEntity": "var:work", "prov:generatedEntity": "var:derived"}}, "prefix": {"var": "http://openprovenance.org/var#", "tmpl": "http://openprovenance.org/tmpl#", "pic": "http://www.ipaw.info/ns/picaso#", "ui": "http://openprovenance.org/ui#", "vargen": "http://openprovenance.org/vargen#"}, "entity": {"var:work": {"ui:maximum": {"type": "xsd:int", "$": 1}, "prov:type": {"type": "prov:QUALIFIED_NAME", "$": "var:workType"}, "ui:minimum": {"type": "xsd:int", "$": 1}, "ui:type": [{"type": "prov:QUALIFIED_NAME", "$": "pic:Book"}, {"type": "prov:QUALIFIED_NAME", "$": "pic:Table"}, {"type": "prov:QUALIFIED_NAME", "$": "pic:Figure"}, {"type": "prov:QUALIFIED_NAME", "$": "pic:Article"}]}, "var:derived": {"tmpl:label": {"type": "prov:QUALIFIED_NAME", "$": "var:derivedTitle"}, "prov:type": {"type": "prov:QUALIFIED_NAME", "$": "var:derivedType"}, "ui:type": [{"type": "prov:QUALIFIED_NAME", "$": "pic:Slides"}, {"type": "prov:QUALIFIED_NAME", "$": "pic:Poster"}]}}}}}
+{
+  "bundle": {
+    "vargen:bundleId": {
+      "entity": {
+        "var:derived": {
+          "prov:type": {
+            "$": "var:derivedType",
+            "type": "prov:QUALIFIED_NAME"
+          },
+          "tmpl:label": {
+            "$": "var:derivedTitle",
+            "type": "prov:QUALIFIED_NAME"
+          }
+        },
+        "var:work": {
+          "prov:type": {
+            "$": "var:workType",
+            "type": "prov:QUALIFIED_NAME"
+          }
+        }
+      },
+      "prefix": {
+        "pic": "http://www.ipaw.info/ns/picaso#",
+        "tmpl": "http://openprovenance.org/tmpl#",
+        "var": "http://openprovenance.org/var#",
+        "vargen": "http://openprovenance.org/vargen#"
+      },
+      "wasDerivedFrom": {
+        "_:id1": {
+          "prov:generatedEntity": "var:derived",
+          "prov:usedEntity": "var:work"
+        }
+      }
+    }
+  },
+  "prefix": {
+    "pic": "http://www.ipaw.info/ns/picaso#",
+    "tmpl": "http://openprovenance.org/tmpl#",
+    "var": "http://openprovenance.org/var#",
+    "vargen": "http://openprovenance.org/vargen#"
+  }
+}

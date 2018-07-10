@@ -1,1 +1,45 @@
-{"prefix": {"var": "http://openprovenance.org/var#", "tmpl": "http://openprovenance.org/tmpl#", "pic": "http://www.ipaw.info/ns/picaso#", "ui": "http://openprovenance.org/ui#", "vargen": "http://openprovenance.org/vargen#"}, "bundle": {"vargen:bundleId": {"wasDerivedFrom": {"_:id1": {"prov:usedEntity": "var:e1", "prov:generatedEntity": "var:e2"}}, "prefix": {"var": "http://openprovenance.org/var#", "tmpl": "http://openprovenance.org/tmpl#", "ui": "http://openprovenance.org/ui#", "vargen": "http://openprovenance.org/vargen#"}, "entity": {"var:e2": {"prov:type": {"type": "prov:QUALIFIED_NAME", "$": "var:e2Type"}, "ui:minimum": {"type": "xsd:int", "$": 1}, "tmpl:label": {"type": "prov:QUALIFIED_NAME", "$": "var:e2Title"}}, "var:e1": {"ui:maximum": {"type": "xsd:int", "$": 1}, "prov:type": {"type": "prov:QUALIFIED_NAME", "$": "var:e1Type"}, "ui:minimum": {"type": "xsd:int", "$": 1}, "tmpl:label": {"type": "prov:QUALIFIED_NAME", "$": "var:e1Title"}}}}}}
+{
+  "bundle": {
+    "vargen:bundleId": {
+      "entity": {
+        "var:e1": {
+          "prov:type": {
+            "$": "var:e1Type",
+            "type": "prov:QUALIFIED_NAME"
+          },
+          "tmpl:label": {
+            "$": "var:e1Title",
+            "type": "prov:QUALIFIED_NAME"
+          }
+        },
+        "var:e2": {
+          "prov:type": {
+            "$": "var:e2Type",
+            "type": "prov:QUALIFIED_NAME"
+          },
+          "tmpl:label": {
+            "$": "var:e2Title",
+            "type": "prov:QUALIFIED_NAME"
+          }
+        }
+      },
+      "prefix": {
+        "tmpl": "http://openprovenance.org/tmpl#",
+        "var": "http://openprovenance.org/var#",
+        "vargen": "http://openprovenance.org/vargen#"
+      },
+      "wasDerivedFrom": {
+        "_:id1": {
+          "prov:generatedEntity": "var:e2",
+          "prov:usedEntity": "var:e1"
+        }
+      }
+    }
+  },
+  "prefix": {
+    "pic": "http://www.ipaw.info/ns/picaso#",
+    "tmpl": "http://openprovenance.org/tmpl#",
+    "var": "http://openprovenance.org/var#",
+    "vargen": "http://openprovenance.org/vargen#"
+  }
+}

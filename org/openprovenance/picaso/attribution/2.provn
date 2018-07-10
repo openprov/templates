@@ -1,18 +1,17 @@
 document
-prefix vargen <http://openprovenance.org/vargen#>
-prefix tmpl <http://openprovenance.org/tmpl#>
-prefix pic <http://www.ipaw.info/ns/picaso#>
-prefix var <http://openprovenance.org/var#>
-prefix ui <http://openprovenance.org/ui#>
-bundle vargen:bundleId
-prefix vargen <http://openprovenance.org/vargen#>
-prefix tmpl <http://openprovenance.org/tmpl#>
-prefix pic <http://www.ipaw.info/ns/picaso#>
-prefix var <http://openprovenance.org/var#>
-prefix ui <http://openprovenance.org/ui#>
+	prefix vargen <http://openprovenance.org/vargen#>
+	prefix tmpl <http://openprovenance.org/tmpl#>
+	prefix var <http://openprovenance.org/var#>
+	prefix pic <http://www.ipaw.info/ns/picaso#>
 
-entity(var:paper,[prov:type = 'var:paperType', pic:year = 'var:year', ui:type = 'pic:Book', ui:type = 'pic:Figure', ui:type = 'pic:Slides', ui:type = 'pic:Dataset', ui:type = 'pic:Article', ui:type = 'pic:Code', ui:type = 'pic:Table', ui:type = 'pic:Tweet', ui:type = 'pic:Poster', ui:maximum = "1" %% xsd:int, ui:minimum = "1" %% xsd:int, tmpl:label = 'var:title'])
-agent(var:author,[prov:type = 'var:authorType', tmpl:label = 'var:authorName', ui:minimum = "1" %% xsd:int, ui:type = 'prov:Organization', ui:type = 'prov:Person'])
-wasAttributedTo(var:paper, var:author,[prov:type = 'var:attributionType', ui:type = 'pic:Author', ui:type = 'pic:Contributor', ui:type = 'pic:Editor', ui:type = 'pic:Funder', ui:type = 'pic:Reviewer'])
-endBundle
+	bundle vargen:bundleId
+		prefix vargen <http://openprovenance.org/vargen#>
+		prefix tmpl <http://openprovenance.org/tmpl#>
+		prefix var <http://openprovenance.org/var#>
+		prefix pic <http://www.ipaw.info/ns/picaso#>
+
+		agent(var:author, [prov:type = 'var:authorType', tmpl:label = 'var:authorName'])
+		entity(var:paper, [prov:type = 'var:paperType', pic:year = 'var:year', tmpl:label = 'var:title'])
+		wasAttributedTo(var:paper, var:author, [prov:type = 'var:attributionType'])
+	endBundle
 endDocument

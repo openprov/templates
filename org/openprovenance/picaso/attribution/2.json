@@ -1,1 +1,56 @@
-{"prefix": {"var": "http://openprovenance.org/var#", "tmpl": "http://openprovenance.org/tmpl#", "pic": "http://www.ipaw.info/ns/picaso#", "ui": "http://openprovenance.org/ui#", "vargen": "http://openprovenance.org/vargen#"}, "bundle": {"vargen:bundleId": {"prefix": {"var": "http://openprovenance.org/var#", "tmpl": "http://openprovenance.org/tmpl#", "pic": "http://www.ipaw.info/ns/picaso#", "ui": "http://openprovenance.org/ui#", "vargen": "http://openprovenance.org/vargen#"}, "entity": {"var:paper": {"pic:year": {"type": "prov:QUALIFIED_NAME", "$": "var:year"}, "ui:type": [{"type": "prov:QUALIFIED_NAME", "$": "pic:Book"}, {"type": "prov:QUALIFIED_NAME", "$": "pic:Figure"}, {"type": "prov:QUALIFIED_NAME", "$": "pic:Slides"}, {"type": "prov:QUALIFIED_NAME", "$": "pic:Dataset"}, {"type": "prov:QUALIFIED_NAME", "$": "pic:Article"}, {"type": "prov:QUALIFIED_NAME", "$": "pic:Code"}, {"type": "prov:QUALIFIED_NAME", "$": "pic:Table"}, {"type": "prov:QUALIFIED_NAME", "$": "pic:Tweet"}, {"type": "prov:QUALIFIED_NAME", "$": "pic:Poster"}], "ui:maximum": {"type": "xsd:int", "$": 1}, "prov:type": {"type": "prov:QUALIFIED_NAME", "$": "var:paperType"}, "ui:minimum": {"type": "xsd:int", "$": 1}, "tmpl:label": {"type": "prov:QUALIFIED_NAME", "$": "var:title"}}}, "agent": {"var:author": {"tmpl:label": {"type": "prov:QUALIFIED_NAME", "$": "var:authorName"}, "prov:type": {"type": "prov:QUALIFIED_NAME", "$": "var:authorType"}, "ui:minimum": {"type": "xsd:int", "$": 1}, "ui:type": [{"type": "prov:QUALIFIED_NAME", "$": "prov:Organization"}, {"type": "prov:QUALIFIED_NAME", "$": "prov:Person"}]}}, "wasAttributedTo": {"_:id1": {"prov:entity": "var:paper", "prov:type": {"type": "prov:QUALIFIED_NAME", "$": "var:attributionType"}, "prov:agent": "var:author", "ui:type": [{"type": "prov:QUALIFIED_NAME", "$": "pic:Author"}, {"type": "prov:QUALIFIED_NAME", "$": "pic:Contributor"}, {"type": "prov:QUALIFIED_NAME", "$": "pic:Editor"}, {"type": "prov:QUALIFIED_NAME", "$": "pic:Funder"}, {"type": "prov:QUALIFIED_NAME", "$": "pic:Reviewer"}]}}}}}
+{
+  "bundle": {
+    "vargen:bundleId": {
+      "agent": {
+        "var:author": {
+          "prov:type": {
+            "$": "var:authorType",
+            "type": "prov:QUALIFIED_NAME"
+          },
+          "tmpl:label": {
+            "$": "var:authorName",
+            "type": "prov:QUALIFIED_NAME"
+          }
+        }
+      },
+      "entity": {
+        "var:paper": {
+          "pic:year": {
+            "$": "var:year",
+            "type": "prov:QUALIFIED_NAME"
+          },
+          "prov:type": {
+            "$": "var:paperType",
+            "type": "prov:QUALIFIED_NAME"
+          },
+          "tmpl:label": {
+            "$": "var:title",
+            "type": "prov:QUALIFIED_NAME"
+          }
+        }
+      },
+      "prefix": {
+        "pic": "http://www.ipaw.info/ns/picaso#",
+        "tmpl": "http://openprovenance.org/tmpl#",
+        "var": "http://openprovenance.org/var#",
+        "vargen": "http://openprovenance.org/vargen#"
+      },
+      "wasAttributedTo": {
+        "_:id1": {
+          "prov:agent": "var:author",
+          "prov:entity": "var:paper",
+          "prov:type": {
+            "$": "var:attributionType",
+            "type": "prov:QUALIFIED_NAME"
+          }
+        }
+      }
+    }
+  },
+  "prefix": {
+    "pic": "http://www.ipaw.info/ns/picaso#",
+    "tmpl": "http://openprovenance.org/tmpl#",
+    "var": "http://openprovenance.org/var#",
+    "vargen": "http://openprovenance.org/vargen#"
+  }
+}

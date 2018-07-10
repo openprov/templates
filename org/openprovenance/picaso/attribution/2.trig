@@ -1,32 +1,25 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix vargen: <http://openprovenance.org/vargen#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix pic: <http://www.ipaw.info/ns/picaso#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix ui: <http://openprovenance.org/ui#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vargen: <http://openprovenance.org/vargen#> .
 @prefix tmpl: <http://openprovenance.org/tmpl#> .
+@prefix pic: <http://www.ipaw.info/ns/picaso#> .
 @prefix var: <http://openprovenance.org/var#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 
 vargen:bundleId {
+	var:author a prov:Agent , var:authorType ;
+		tmpl:label var:authorName .
+	
 	var:paper a prov:Entity , var:paperType ;
 		pic:year var:year ;
-		ui:type pic:Book , pic:Figure , pic:Slides , pic:Dataset , pic:Article , pic:Code , pic:Table , pic:Tweet , pic:Poster ;
-		ui:maximum "1"^^xsd:int ;
-		ui:minimum "1"^^xsd:int ;
 		tmpl:label var:title .
-	
-	var:author a prov:Agent , var:authorType ;
-		tmpl:label var:authorName ;
-		ui:minimum "1"^^xsd:int ;
-		ui:type prov:Organization , prov:Person .
 	
 	_:blank1 a prov:Attribution ;
 		prov:agent var:author .
 	
 	var:paper prov:qualifiedAttribution _:blank1 .
 	
-	_:blank1 a var:attributionType ;
-		ui:type pic:Author , pic:Contributor , pic:Editor , pic:Funder , pic:Reviewer .
+	_:blank1 a var:attributionType .
 }

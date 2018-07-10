@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<prov:document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:ns3="http://openprovenance.org/prov/extension#" xmlns:vargen="http://openprovenance.org/vargen#" xmlns:tmpl="http://openprovenance.org/tmpl#" xmlns:ui="http://openprovenance.org/ui#" xmlns:var="http://openprovenance.org/var#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:pic="http://www.ipaw.info/ns/picaso#">
+<prov:document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:ns3="http://openprovenance.org/prov/extension#" xmlns:vargen="http://openprovenance.org/vargen#" xmlns:tmpl="http://openprovenance.org/tmpl#" xmlns:var="http://openprovenance.org/var#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:pic="http://www.ipaw.info/ns/picaso#">
     <prov:bundleContent prov:id="vargen:bundleId">
+        <prov:activity prov:id="vargen:presenting">
+            <prov:type xsi:type="xsd:QName">pic:PresentationActivity</prov:type>
+        </prov:activity>
+        <prov:agent prov:id="var:presenter">
+            <prov:type xsi:type="xsd:QName">var:presenterType</prov:type>
+            <tmpl:label xsi:type="xsd:QName">var:presenterName</tmpl:label>
+        </prov:agent>
+        <prov:entity prov:id="var:paper">
+            <prov:type xsi:type="xsd:QName">var:paperType</prov:type>
+            <tmpl:label xsi:type="xsd:QName">var:title</tmpl:label>
+        </prov:entity>
+        <prov:entity prov:id="var:session">
+            <prov:type xsi:type="xsd:QName">pic:ScheduledSession</prov:type>
+        </prov:entity>
+        <prov:entity prov:id="var:slides">
+            <prov:type xsi:type="xsd:QName">var:slidesType</prov:type>
+        </prov:entity>
+        <prov:used>
+            <prov:activity prov:ref="vargen:presenting"/>
+            <prov:entity prov:ref="var:slides"/>
+        </prov:used>
         <prov:wasAssociatedWith>
             <prov:activity prov:ref="vargen:presenting"/>
             <prov:agent prov:ref="var:presenter"/>
@@ -9,51 +30,12 @@
         <prov:wasAssociatedWith>
             <prov:activity prov:ref="vargen:presenting"/>
             <prov:agent prov:ref="var:presenter"/>
-            <prov:plan prov:ref="var:paper"/>
+            <prov:plan prov:ref="var:session"/>
         </prov:wasAssociatedWith>
         <prov:wasAssociatedWith>
             <prov:activity prov:ref="vargen:presenting"/>
             <prov:agent prov:ref="var:presenter"/>
-            <prov:plan prov:ref="var:session"/>
+            <prov:plan prov:ref="var:paper"/>
         </prov:wasAssociatedWith>
-        <prov:used>
-            <prov:activity prov:ref="vargen:presenting"/>
-            <prov:entity prov:ref="var:slides"/>
-        </prov:used>
-        <prov:agent prov:id="var:presenter">
-            <prov:type xsi:type="xsd:QName">var:presenterType</prov:type>
-            <tmpl:label xsi:type="xsd:QName">var:presenterName</tmpl:label>
-            <ui:minimum xsi:type="xsd:int">1</ui:minimum>
-            <ui:type xsi:type="xsd:QName">prov:Person</ui:type>
-        </prov:agent>
-        <prov:entity prov:id="var:session">
-            <ui:maximum xsi:type="xsd:int">1</ui:maximum>
-            <ui:minimum xsi:type="xsd:int">0</ui:minimum>
-            <ui:type xsi:type="xsd:QName">pic:ScheduledSession</ui:type>
-        </prov:entity>
-        <prov:entity prov:id="var:slides">
-            <prov:type xsi:type="xsd:QName">var:slidesType</prov:type>
-            <ui:minimum xsi:type="xsd:int">1</ui:minimum>
-            <ui:type xsi:type="xsd:QName">pic:Slides</ui:type>
-        </prov:entity>
-        <prov:entity prov:id="var:paper">
-            <prov:type xsi:type="xsd:QName">var:paperType</prov:type>
-            <ui:maximum xsi:type="xsd:int">1</ui:maximum>
-            <tmpl:label xsi:type="xsd:QName">var:title</tmpl:label>
-            <ui:minimum xsi:type="xsd:int">1</ui:minimum>
-            <ui:type xsi:type="xsd:QName">pic:Book</ui:type>
-            <ui:type xsi:type="xsd:QName">pic:Slides</ui:type>
-            <ui:type xsi:type="xsd:QName">pic:Dataset</ui:type>
-            <ui:type xsi:type="xsd:QName">pic:Article</ui:type>
-            <ui:type xsi:type="xsd:QName">pic:Code</ui:type>
-            <ui:type xsi:type="xsd:QName">pic:Table</ui:type>
-            <ui:type xsi:type="xsd:QName">pic:Figure</ui:type>
-            <ui:type xsi:type="xsd:QName">pic:Poster</ui:type>
-        </prov:entity>
-        <prov:activity prov:id="vargen:presenting">
-            <ui:maximum xsi:type="xsd:int">1</ui:maximum>
-            <ui:minimum xsi:type="xsd:int">1</ui:minimum>
-            <ui:type xsi:type="xsd:QName">pic:PresentationActivity</ui:type>
-        </prov:activity>
     </prov:bundleContent>
 </prov:document>

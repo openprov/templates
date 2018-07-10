@@ -1,17 +1,16 @@
 document
-prefix vargen <http://openprovenance.org/vargen#>
-prefix tmpl <http://openprovenance.org/tmpl#>
-prefix pic <http://www.ipaw.info/ns/picaso#>
-prefix var <http://openprovenance.org/var#>
-prefix ui <http://openprovenance.org/ui#>
-bundle vargen:bundleId
-prefix vargen <http://openprovenance.org/vargen#>
-prefix pic <http://www.ipaw.info/ns/picaso#>
-prefix var <http://openprovenance.org/var#>
-prefix ui <http://openprovenance.org/ui#>
+	prefix vargen <http://openprovenance.org/vargen#>
+	prefix tmpl <http://openprovenance.org/tmpl#>
+	prefix var <http://openprovenance.org/var#>
+	prefix pic <http://www.ipaw.info/ns/picaso#>
 
-wasDerivedFrom(var:paper, var:cited_paper,[prov:type = 'pic:Citation'])
-entity(var:cited_paper,[prov:type = 'var:citedPaperType', ui:minimum = "1" %% xsd:int, ui:type = 'pic:Book', ui:type = 'pic:Article'])
-entity(var:paper,[prov:type = 'var:paperType', ui:maximum = "1" %% xsd:int, ui:minimum = "1" %% xsd:int, ui:type = 'pic:Book', ui:type = 'pic:Article'])
-endBundle
+	bundle vargen:bundleId
+		prefix vargen <http://openprovenance.org/vargen#>
+		prefix var <http://openprovenance.org/var#>
+		prefix pic <http://www.ipaw.info/ns/picaso#>
+
+		entity(var:cited_paper, [prov:type = 'var:citedPaperType'])
+		entity(var:paper, [prov:type = 'var:paperType'])
+		wasDerivedFrom(var:paper, var:cited_paper, [prov:type = 'pic:Citation'])
+	endBundle
 endDocument
