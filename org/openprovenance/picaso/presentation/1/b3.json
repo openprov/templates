@@ -1,0 +1,25 @@
+{
+  "var" : {
+    "presenterName" : [ "Paul Groth" ],
+    "presenterType" : [ {
+      "@id" : "prov:Person"
+    } ],
+    "presenter" : [ {
+      "@id" : "ex0:GrothPaul"
+    } ],
+    "session" : [ {
+      "@id" : "ex1:session5"
+    } ]
+  },
+  "vargen" : {
+    "presenting" : [ {
+      "@id" : "uuid:20ff4fb1-5c16-4078-bce7-ab841b9e6f38"
+    } ]
+  },
+  "context" : {
+    "prov" : "http://www.w3.org/ns/prov#",
+    "uuid" : "urn:uuid:",
+    "ex1" : "http://www.ipaw.info/ipaw14/",
+    "ex0" : "http://www.ipaw.info/data/people/"
+  }
+}

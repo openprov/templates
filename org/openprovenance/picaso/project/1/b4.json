@@ -1,0 +1,29 @@
+{
+  "var" : {
+    "projectTitle" : [ "UBHave" ],
+    "endTime" : [ {
+      "@type" : "xsd:dateTime",
+      "@value" : "2014-09-30T00:00:00"
+    } ],
+    "person" : [ {
+      "@id" : "ecsid:3518"
+    } ],
+    "startTime" : [ {
+      "@type" : "xsd:dateTime",
+      "@value" : "2011-10-01T00:00:00"
+    } ],
+    "personName" : [ "Dr Mark J Weal" ],
+    "project" : [ {
+      "@id" : "ecsprojid:782"
+    } ],
+    "role" : [ {
+      "@id" : "pic:Principal_Investigator"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "ecsid" : "http://id.ecs.soton.ac.uk/person/",
+    "ecsprojid" : "http://id.ecs.soton.ac.uk/project/",
+    "pic" : "http://www.ipaw.info/ns/picaso#"
+  }
+}

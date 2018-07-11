@@ -1,0 +1,22 @@
+{
+  "var" : {
+    "work" : [ {
+      "@id" : "ex0:PhamIPAW2014"
+    } ],
+    "derivedType" : [ {
+      "@id" : "pic:Slides"
+    } ],
+    "derived" : [ {
+      "@id" : "ex1:ipaw14-presentation-quan-tanu-ian"
+    } ],
+    "workType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "ex1" : "http://www.slideshare.net/lordPretzel/",
+    "ex0" : "http://www.ipaw.info/data/paper/"
+  }
+}

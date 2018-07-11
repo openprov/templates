@@ -1,0 +1,42 @@
+{
+  "var" : {
+    "slides" : [ {
+      "@id" : "ex0:Model-Based-Abstraction-Probst-final.pdf"
+    } ],
+    "paper" : [ {
+      "@id" : "ex1:ProbstTAPP2014"
+    } ],
+    "slidesType" : [ {
+      "@id" : "pic:Slides"
+    } ],
+    "presenterType" : [ {
+      "@id" : "prov:Person"
+    } ],
+    "session" : [ {
+      "@id" : "ex3:session1"
+    } ],
+    "presenter" : [ {
+      "@id" : "ex2:ProbstChristianW"
+    } ],
+    "title" : [ "Model-based Abstraction of Data Provenance" ],
+    "slidesName" : [ "Slides for Model-Based Abstraction of Data Provenance paper by Probst" ],
+    "presenterName" : [ "Christian W. Probst" ],
+    "paperType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : {
+    "presenting" : [ {
+      "@id" : "uuid:82aca0f3-7a3f-4ef4-9c25-43572dd91480"
+    } ]
+  },
+  "context" : {
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "ex3" : "http://www.ipaw.info/tapp14/",
+    "prov" : "http://www.w3.org/ns/prov#",
+    "ex2" : "http://www.ipaw.info/data/people/",
+    "uuid" : "urn:uuid:",
+    "ex1" : "http://www.ipaw.info/data/paper/",
+    "ex0" : "http://provenanceweek.dlr.de/media/medialibrary/2014/06/"
+  }
+}

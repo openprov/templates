@@ -1,0 +1,71 @@
+{
+  "var" : {
+    "attributionType" : [ {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    } ],
+    "authorName" : [ "Nicholas R Jennings", "Luc Moreau", "David Nicholson", "Sarvapali D Ramchurn", "Stephen J Roberts", "T Rodden", "Alex Rogers" ],
+    "authorType" : [ {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    } ],
+    "year" : [ {
+      "@type" : "xsd:int",
+      "@value" : "2014"
+    } ],
+    "author" : [ {
+      "@id" : "ecsid:2355"
+    }, {
+      "@id" : "ecsid:391"
+    }, {
+      "@id" : "externalid:c5f5f6d110fea86b072a97932c5f261f"
+    }, {
+      "@id" : "ecsid:7047"
+    }, {
+      "@id" : "ox:sjrob"
+    }, {
+      "@id" : "nott:tom.rodden"
+    }, {
+      "@id" : "ecsid:5113"
+    } ],
+    "paper" : [ {
+      "@id" : "eprint:198"
+    } ],
+    "title" : [ "On human-agent collectives" ],
+    "paperType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "nott" : "http://www.nottingham.ac.uk/computerscience/People/",
+    "externalid" : "http://www.example.com/",
+    "eprint" : "http://www.orchid.ac.uk/eprints/id/eprint/",
+    "ox" : "http://www.robots.ox.ac.uk/~",
+    "ecsid" : "http://id.ecs.soton.ac.uk/person/",
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "prov" : "http://www.w3.org/ns/prov#"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "var" : {
+    "e2Type" : [ {
+      "@id" : "pic:Article"
+    } ],
+    "e2" : [ {
+      "@id" : "ex1:tapp14_paper_koop.pdf"
+    } ],
+    "e2Title" : [ "Reorganizing Workﬂow Evolution Provenance (PDF version on USENIX website)" ],
+    "e1" : [ {
+      "@id" : "paper:KoopTAPP2014"
+    } ],
+    "e1Title" : [ "Reorganizing workflow evolution provenance" ],
+    "e1Type" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "ex1" : "https://www.usenix.org/system/files/conference/tapp2014/",
+    "paper" : "http://www.ipaw.info/data/paper/"
+  }
+}

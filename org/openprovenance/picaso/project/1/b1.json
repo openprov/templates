@@ -1,0 +1,57 @@
+{
+  "var" : {
+    "projectTitle" : [ "ORCHID: Human-Agent Collectives - From Foundations to Applications" ],
+    "endTime" : [ {
+      "@type" : "xsd:dateTime",
+      "@value" : "2015-12-31T00:00:00"
+    } ],
+    "person" : [ {
+      "@id" : "ecsid:11170"
+    }, {
+      "@id" : "ecsid:10022"
+    }, {
+      "@id" : "ecsid:6803"
+    }, {
+      "@id" : "ecsid:10467"
+    }, {
+      "@id" : "ecsid:7047"
+    }, {
+      "@id" : "ecsid:2355"
+    }, {
+      "@id" : "ecsid:5113"
+    }, {
+      "@id" : "ecsid:391"
+    } ],
+    "startTime" : [ {
+      "@type" : "xsd:dateTime",
+      "@value" : "2011-01-01T00:00:00"
+    } ],
+    "personName" : [ "Dr Sebastian Stein", "Dr Trung Dong Huynh", "Dr Sebastian Stein", "Talal Rahwan", "Dr. Sarvapali Ramchurn", "Professor Nicholas Jennings", "Dr Alex Rogers", "Professor  Luc Moreau" ],
+    "project" : [ {
+      "@id" : "ecsprojid:765"
+    } ],
+    "role" : [ {
+      "@id" : "pic:Researcher"
+    }, {
+      "@id" : "pic:Researcher"
+    }, {
+      "@id" : "pic:Researcher"
+    }, {
+      "@id" : "pic:Researcher"
+    }, {
+      "@id" : "pic:Researcher"
+    }, {
+      "@id" : "pic:Principal_Investigator"
+    }, {
+      "@id" : "pic:Principal_Investigator"
+    }, {
+      "@id" : "pic:Principal_Investigator"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "ecsid" : "http://id.ecs.soton.ac.uk/person/",
+    "ecsprojid" : "http://id.ecs.soton.ac.uk/project/",
+    "pic" : "http://www.ipaw.info/ns/picaso#"
+  }
+}

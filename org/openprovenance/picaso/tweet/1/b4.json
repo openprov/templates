@@ -1,0 +1,20 @@
+{
+  "var" : {
+    "tweetContent" : [ "Tweet on An Analytical Survey of Provenance Sanitization" ],
+    "work" : [ {
+      "@id" : "ex0:CheneyIPAW2014"
+    } ],
+    "tweet" : [ {
+      "@id" : "ex1:476625652599492608"
+    } ],
+    "workType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "ex1" : "https://twitter.com/lucmoreau/status/",
+    "ex0" : "http://www.ipaw.info/data/paper/"
+  }
+}

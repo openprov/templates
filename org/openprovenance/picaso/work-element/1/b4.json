@@ -1,0 +1,62 @@
+{
+  "var" : {
+    "elementType" : [ {
+      "@id" : "pic:Figure"
+    }, {
+      "@id" : "pic:Figure"
+    }, {
+      "@id" : "pic:Figure"
+    }, {
+      "@id" : "pic:Figure"
+    }, {
+      "@id" : "pic:Figure"
+    }, {
+      "@id" : "pic:Figure"
+    }, {
+      "@id" : "pic:Figure"
+    }, {
+      "@id" : "pic:Figure"
+    }, {
+      "@id" : "pic:Figure"
+    }, {
+      "@id" : "pic:Figure"
+    }, {
+      "@id" : "pic:Figure"
+    } ],
+    "element" : [ {
+      "@id" : "w3c:NOTE-prov-primer-20130430/images/key-concepts.png"
+    }, {
+      "@id" : "w3c:NOTE-prov-primer-20130430/images/entities.png"
+    }, {
+      "@id" : "w3c:NOTE-prov-primer-20130430/images/activities.png"
+    }, {
+      "@id" : "w3c:NOTE-prov-primer-20130430/images/use-generate.png"
+    }, {
+      "@id" : "w3c:NOTE-prov-primer-20130430/images/agents.png"
+    }, {
+      "@id" : "w3c:NOTE-prov-primer-20130430/images/roles.png"
+    }, {
+      "@id" : "w3c:NOTE-prov-primer-20130430/images/derivation.png"
+    }, {
+      "@id" : "w3c:NOTE-prov-primer-20130430/images/plans.png"
+    }, {
+      "@id" : "w3c:NOTE-prov-primer-20130430/images/time.png"
+    }, {
+      "@id" : "w3c:NOTE-prov-primer-20130430/images/specialization.png"
+    }, {
+      "@id" : "w3c:NOTE-prov-primer-20130430/images/everything.png"
+    } ],
+    "paper" : [ {
+      "@id" : "w3c:NOTE-prov-primer-20130430"
+    } ],
+    "title" : [ "PROV Model Primer" ],
+    "paperType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "w3c" : "http://www.w3.org/TR/2013/"
+  }
+}

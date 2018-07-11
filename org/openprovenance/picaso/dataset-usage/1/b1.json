@@ -1,0 +1,39 @@
+{
+  "var" : {
+    "work" : [ {
+      "@id" : "ex0:264361"
+    } ],
+    "datasetTitle" : [ "ACM RKBExplorer", "IEEE RKBExplorer", "DBLP RKBExplorer", "Citeseer RKBExplorer" ],
+    "dataset" : [ {
+      "@id" : "ex1:"
+    }, {
+      "@id" : "ex2:"
+    }, {
+      "@id" : "ex3:"
+    }, {
+      "@id" : "ex4:"
+    } ],
+    "datasetType" : [ {
+      "@id" : "pic:Dataset"
+    }, {
+      "@id" : "pic:Dataset"
+    }, {
+      "@id" : "pic:Dataset"
+    }, {
+      "@id" : "pic:Dataset"
+    } ],
+    "workTitle" : [ "URI Identity Management for Semantic Web Data Integration and Linkage" ],
+    "workType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "ex4" : "http://citeseer.rkbexplorer.com/",
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "ex3" : "http://dblp.rkbexplorer.com/",
+    "ex2" : "http://ieee.rkbexplorer.com/",
+    "ex1" : "http://acm.rkbexplorer.com/",
+    "ex0" : "http://eprints.soton.ac.uk/id/eprint/"
+  }
+}

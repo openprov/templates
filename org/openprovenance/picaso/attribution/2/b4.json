@@ -1,0 +1,51 @@
+{
+  "var" : {
+    "attributionType" : [ {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    } ],
+    "authorName" : [ "Sarvapali D Ramchurn", "T. Dong Huynh", "Matteo Venanzi", "Bing Shi" ],
+    "authorType" : [ {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    } ],
+    "year" : [ {
+      "@type" : "xsd:int",
+      "@value" : "2013"
+    } ],
+    "author" : [ {
+      "@id" : "ecsid:7047"
+    }, {
+      "@id" : "ecsid:10022"
+    }, {
+      "@id" : "ecsid:24883"
+    }, {
+      "@id" : "externalid:d866ccae4f2a9419ff984a12c1b63e98"
+    } ],
+    "paper" : [ {
+      "@id" : "eprint:128"
+    } ],
+    "title" : [ "Collabmap: crowdsourcing maps for emergency planning." ],
+    "paperType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "externalid" : "http://www.example.com/",
+    "eprint" : "http://www.orchid.ac.uk/eprints/id/eprint/",
+    "ecsid" : "http://id.ecs.soton.ac.uk/person/",
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "prov" : "http://www.w3.org/ns/prov#"
+  }
+}

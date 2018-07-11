@@ -1,0 +1,57 @@
+{
+  "var" : {
+    "attributionType" : [ {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    } ],
+    "authorName" : [ "Mark Ebden", "T. Dong Huynh", "Luc Moreau", "Sarvapali D Ramchurn", "Stephen J Roberts" ],
+    "authorType" : [ {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    } ],
+    "year" : [ {
+      "@type" : "xsd:int",
+      "@value" : "2012"
+    } ],
+    "author" : [ {
+      "@id" : "ox:mebden"
+    }, {
+      "@id" : "ecsid:10022"
+    }, {
+      "@id" : "ecsid:391"
+    }, {
+      "@id" : "ecsid:7047"
+    }, {
+      "@id" : "ox:sjrob"
+    } ],
+    "paper" : [ {
+      "@id" : "eprint:78"
+    } ],
+    "title" : [ "Network Analysis on Provenance Graphs from a Crowdsourcing Application" ],
+    "paperType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "eprint" : "http://www.orchid.ac.uk/eprints/id/eprint/",
+    "ecsid" : "http://id.ecs.soton.ac.uk/person/",
+    "ox" : "http://www.robots.ox.ac.uk/~",
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "prov" : "http://www.w3.org/ns/prov#"
+  }
+}

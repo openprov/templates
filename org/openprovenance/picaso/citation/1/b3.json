@@ -1,0 +1,23 @@
+{
+  "var" : {
+    "cited_paper" : [ {
+      "@id" : "ex1:106"
+    } ],
+    "citedPaperType" : [ {
+      "@id" : "pic:Article"
+    } ],
+    "citedPaperTitle" : [ "At Home with Agents: Exploring Attitudes Towards Future Smart Energy Infrastructures" ],
+    "paper" : [ {
+      "@id" : "ex1:181"
+    } ],
+    "title" : [ "Doing the Laundry with Agents: a Field Trial of a Future Smart Energy System in the Home." ],
+    "paperType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "ex1" : "http://www.orchid.ac.uk/eprints/id/eprint/"
+  }
+}

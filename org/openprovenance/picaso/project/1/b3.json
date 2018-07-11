@@ -1,0 +1,45 @@
+{
+  "var" : {
+    "projectTitle" : [ "FREMA: e-Learning Framework Reference Model for Assessment" ],
+    "endTime" : [ {
+      "@type" : "xsd:dateTime",
+      "@value" : "2006-03-31T00:00:00"
+    } ],
+    "person" : [ {
+      "@id" : "ecsid:1615"
+    }, {
+      "@id" : "ecsid:395"
+    }, {
+      "@id" : "ecsid:3513"
+    }, {
+      "@id" : "ecsid:5741"
+    }, {
+      "@id" : "ecsid:46"
+    } ],
+    "startTime" : [ {
+      "@type" : "xsd:dateTime",
+      "@value" : "2005-04-01T00:00:00"
+    } ],
+    "personName" : [ "Dr David Millard", "Dr Gary B Wills", "Dr David Millard", "Lester Gilbert", "Professor Hugh C. Davis" ],
+    "project" : [ {
+      "@id" : "ecsprojid:308"
+    } ],
+    "role" : [ {
+      "@id" : "pic:Researcher"
+    }, {
+      "@id" : "pic:Researcher"
+    }, {
+      "@id" : "pic:Researcher"
+    }, {
+      "@id" : "pic:Researcher"
+    }, {
+      "@id" : "pic:Principal_Investigator"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "ecsid" : "http://id.ecs.soton.ac.uk/person/",
+    "ecsprojid" : "http://id.ecs.soton.ac.uk/project/",
+    "pic" : "http://www.ipaw.info/ns/picaso#"
+  }
+}

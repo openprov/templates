@@ -1,0 +1,23 @@
+{
+  "var" : {
+    "cited_paper" : [ {
+      "@id" : "ex1:155"
+    } ],
+    "citedPaperType" : [ {
+      "@id" : "pic:Article"
+    } ],
+    "citedPaperTitle" : [ "Team Reactions to Voiced Agent Instructions in a Pervasive Game" ],
+    "paper" : [ {
+      "@id" : "ex1:191"
+    } ],
+    "title" : [ "Social Implications of Agent-based Planning Support for Human Teams. " ],
+    "paperType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "ex1" : "http://www.orchid.ac.uk/eprints/id/eprint/"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "var" : {
+    "attributionType" : [ {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    } ],
+    "authorName" : [ "T. Dong Huynh", "Mark Ebden", "Matteo Venanzi", "Sarvapali D Ramchurn", "Stephen J Roberts", "Luc Moreau" ],
+    "authorType" : [ {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    } ],
+    "year" : [ {
+      "@type" : "xsd:int",
+      "@value" : "2013"
+    } ],
+    "author" : [ {
+      "@id" : "ecsid:10022"
+    }, {
+      "@id" : "ox:mebden"
+    }, {
+      "@id" : "ecsid:24883"
+    }, {
+      "@id" : "ecsid:7047"
+    }, {
+      "@id" : "ox:sjrob"
+    }, {
+      "@id" : "ecsid:391"
+    } ],
+    "paper" : [ {
+      "@id" : "eprint:158"
+    } ],
+    "title" : [ "Interpretation of Crowdsourced Activities Using Provenance Network Analysis " ],
+    "paperType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "eprint" : "http://www.orchid.ac.uk/eprints/id/eprint/",
+    "ox" : "http://www.robots.ox.ac.uk/~",
+    "ecsid" : "http://id.ecs.soton.ac.uk/person/",
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "prov" : "http://www.w3.org/ns/prov#"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "var" : {
+    "tweetContent" : [ "PB @PMissier http://bit.ly/1kpTjOr  http://bit.ly/1oRpP24  (though #git2prov should tell us...) cc @matthew_gamble @provenanceweek", "Nice: code for generating #prov from wikipedia - now supports RDF https://github.com/matthewgamble/wikipedia-provenance @matthew_gamble @PMissier @provenanceweek" ],
+    "work" : [ {
+      "@id" : "ex0:wikipedia-provenance"
+    } ],
+    "tweet" : [ {
+      "@id" : "ex1:477018651452010496"
+    }, {
+      "@id" : "ex2:477019982103322624"
+    } ],
+    "workTitle" : [ "wikipedia-provenance GitHub repository (by matthewgamble)" ],
+    "workType" : [ {
+      "@id" : "pic:Code"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "ex2" : "https://twitter.com/pgroth/status/",
+    "ex1" : "https://twitter.com/timrdf/status/",
+    "ex0" : "https://github.com/matthewgamble/"
+  }
+}

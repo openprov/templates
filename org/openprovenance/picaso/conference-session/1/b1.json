@@ -1,0 +1,25 @@
+{
+  "var" : {
+    "program" : [ {
+      "@id" : "ipaw:ipaw14/program"
+    } ],
+    "session" : [ {
+      "@id" : "ipaw:ipaw14/session1"
+    }, {
+      "@id" : "ipaw:ipaw14/session2"
+    }, {
+      "@id" : "ipaw:ipaw14/session3"
+    }, {
+      "@id" : "ipaw:ipaw14/session4"
+    }, {
+      "@id" : "ipaw:ipaw14/session5"
+    }, {
+      "@id" : "ipaw:ipaw14/session6"
+    } ],
+    "title" : [ "Session-I: Applications of Provenance", "Session-II: Standardization of provenance models, services, and representations", "Session-III: Provenance management architectures and techniques", "Session-IV: Security and privacy implications of provenance", "Session-V: Demo Test Drive and Poster Lightning Talks", "Session-VI: Provenance discovery and data reproducibility" ]
+  },
+  "vargen" : { },
+  "context" : {
+    "ipaw" : "http://www.ipaw.info/"
+  }
+}

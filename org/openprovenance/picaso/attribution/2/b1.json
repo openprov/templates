@@ -1,0 +1,38 @@
+{
+  "var" : {
+    "attributionType" : [ {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    } ],
+    "authorName" : [ "Trung Dong Huynh", "Luc Moreau" ],
+    "authorType" : [ {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    } ],
+    "year" : [ {
+      "@type" : "xsd:int",
+      "@value" : "2014"
+    } ],
+    "author" : [ {
+      "@id" : "personid:ext-47115"
+    }, {
+      "@id" : "personid:ext-43268"
+    } ],
+    "paper" : [ {
+      "@id" : "eprint:365509"
+    } ],
+    "title" : [ "ProvStore: a public provenance repository" ],
+    "paperType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "eprint" : "http://eprints.soton.ac.uk/id/eprint/",
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "prov" : "http://www.w3.org/ns/prov#",
+    "personid" : "http://eprints.soton.ac.uk/id/person/"
+  }
+}

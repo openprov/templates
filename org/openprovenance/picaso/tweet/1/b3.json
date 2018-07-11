@@ -1,0 +1,20 @@
+{
+  "var" : {
+    "tweetContent" : [ "Stand-off provenance capture on the unix command line. On GitHub https://github.com/m000/dtracker/blob/master/README.md … @provenanceweek" ],
+    "work" : [ {
+      "@id" : "ex0:dtracker"
+    } ],
+    "tweet" : [ {
+      "@id" : "ex1:476693293410304000"
+    } ],
+    "workType" : [ {
+      "@id" : "pic:Code"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "ex1" : "https://twitter.com/timrdf/status/",
+    "ex0" : "https://github.com/m000/"
+  }
+}

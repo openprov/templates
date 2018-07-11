@@ -1,0 +1,24 @@
+{
+  "var" : {
+    "e2Type" : [ {
+      "@id" : "pic:Figure"
+    } ],
+    "e2" : [ {
+      "@id" : "ex1:Summary2.pdf"
+    } ],
+    "e2Title" : [ "Summary2.pdf" ],
+    "e1" : [ {
+      "@id" : "ex0:essentials.png"
+    } ],
+    "e1Title" : [ "Figure 1: PROV Core Structures (Informative)" ],
+    "e1Type" : [ {
+      "@id" : "pic:Figure"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "ex1" : "http://eprints.soton.ac.uk/361113/13/",
+    "ex0" : "http://www.w3.org/TR/2013/REC-prov-dm-20130430/uml/"
+  }
+}

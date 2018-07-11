@@ -1,0 +1,39 @@
+{
+  "var" : {
+    "program" : [ {
+      "@id" : "orchid:ahm2014/program"
+    } ],
+    "session" : [ {
+      "@id" : "orchid:ahm2014/session1"
+    }, {
+      "@id" : "orchid:ahm2014/session2"
+    }, {
+      "@id" : "orchid:ahm2014/session3"
+    }, {
+      "@id" : "orchid:ahm2014/session4"
+    }, {
+      "@id" : "orchid:ahm2014/session5"
+    }, {
+      "@id" : "orchid:ahm2014/session6"
+    }, {
+      "@id" : "orchid:ahm2014/session7"
+    }, {
+      "@id" : "orchid:ahm2014/session8"
+    }, {
+      "@id" : "orchid:ahm2014/session9"
+    }, {
+      "@id" : "orchid:ahm2014/session10"
+    }, {
+      "@id" : "orchid:ahm2014/session11"
+    }, {
+      "@id" : "orchid:ahm2014/session12"
+    }, {
+      "@id" : "orchid:ahm2014/session13"
+    } ],
+    "title" : [ "Session-I: Introduction", "Session-II: Human Agent Collectives for Disaster Response", "Session-III: Experiences from Angel Thunder", "Session-IV: Doing a PhD on ORCHID", "Session-V: Poster and Demo Session", "Session-VI: Researchers Forum", "Session-VII: MCC", "Session-VIII: Advisory Panel Meeting", "Session-IX: Feedback from Researchers Forum", "Session-X: Plans for the coming year", "Session-XI: HAC Patterns", "Session-XII: HAC Patterns Discussions", "Session-XIII: Feedback from Advisory Panel" ]
+  },
+  "vargen" : { },
+  "context" : {
+    "orchid" : "http://www.orchid.ac.uk/"
+  }
+}

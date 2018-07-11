@@ -1,0 +1,24 @@
+{
+  "var" : {
+    "program" : [ {
+      "@id" : "ex0:"
+    } ],
+    "session" : [ {
+      "@id" : "ex4:session1"
+    }, {
+      "@id" : "ex4:session3"
+    }, {
+      "@id" : "ex4:session4"
+    }, {
+      "@id" : "ex4:session2"
+    }, {
+      "@id" : "ex0:technical-sessions/session/keynote-address"
+    } ],
+    "title" : [ "Session-I: Usage", "Session-III: Theory", "Session IV: Practice", "Session-II: Capture", "Keynote Address" ]
+  },
+  "vargen" : { },
+  "context" : {
+    "ex4" : "http://www.ipaw.info/tapp14/",
+    "ex0" : "https://www.usenix.org/conference/tapp2014/"
+  }
+}

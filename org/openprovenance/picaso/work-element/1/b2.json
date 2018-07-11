@@ -1,0 +1,74 @@
+{
+  "var" : {
+    "elementTitle" : [ "Figure 1: PROV Core Structures (Informative)", "Figure 4: PROV-DM Components (Informative)", "Figure 5: Entities and Activities Component Overview (Informative)", "Figure 6: Derivation Component Overview (Informative)", "Figure 7: Agents and Responsibility Overview (Informative)", "Figure 8: Influence Overview (Informative)", "Figure 9: Bundle Component Overview (Informative)", "Figure 10: Alternates Component Overview (Informative)", "Figure 11: Collections Component Overview (Informative)" ],
+    "elementType" : [ {
+      "@id" : "pic:Figure"
+    }, {
+      "@id" : "pic:Figure"
+    }, {
+      "@id" : "pic:Figure"
+    }, {
+      "@id" : "pic:Figure"
+    }, {
+      "@id" : "pic:Figure"
+    }, {
+      "@id" : "pic:Figure"
+    }, {
+      "@id" : "pic:Figure"
+    }, {
+      "@id" : "pic:Figure"
+    }, {
+      "@id" : "pic:Figure"
+    } ],
+    "element" : [ {
+      "@id" : "w3c:REC-prov-dm-20130430/uml/essentials.png"
+    }, {
+      "@id" : "w3c:REC-prov-dm-20130430/images/dm/components-dependencies.png"
+    }, {
+      "@id" : "w3c:REC-prov-dm-20130430/uml/component1.png"
+    }, {
+      "@id" : "w3c:REC-prov-dm-20130430/uml/component2.png"
+    }, {
+      "@id" : "w3c:REC-prov-dm-20130430/uml/component3.png"
+    }, {
+      "@id" : "w3c:REC-prov-dm-20130430/uml/Component3b.png"
+    }, {
+      "@id" : "w3c:REC-prov-dm-20130430/uml/component4.png"
+    }, {
+      "@id" : "w3c:REC-prov-dm-20130430/uml/component5.png"
+    }, {
+      "@id" : "w3c:REC-prov-dm-20130430/uml/component6.png"
+    } ],
+    "link" : [ {
+      "@id" : "w3c:REC-prov-dm-20130430/#prov-core-structures"
+    }, {
+      "@id" : "w3c:REC-prov-dm-20130430/#prov-dm-components"
+    }, {
+      "@id" : "w3c:REC-prov-dm-20130430/#figure-component1"
+    }, {
+      "@id" : "w3c:REC-prov-dm-20130430/#figure-component2"
+    }, {
+      "@id" : "w3c:REC-prov-dm-20130430/#figure-component3"
+    }, {
+      "@id" : "w3c:REC-prov-dm-20130430/#figure-component3b"
+    }, {
+      "@id" : "w3c:REC-prov-dm-20130430/#figure-component4"
+    }, {
+      "@id" : "w3c:REC-prov-dm-20130430/#figure-component5"
+    }, {
+      "@id" : "w3c:REC-prov-dm-20130430/#figure-component6"
+    } ],
+    "paper" : [ {
+      "@id" : "w3c:REC-prov-dm-20130430"
+    } ],
+    "title" : [ "PROV-DM: The PROV Data Model" ],
+    "paperType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "w3c" : "http://www.w3.org/TR/2013/"
+  }
+}

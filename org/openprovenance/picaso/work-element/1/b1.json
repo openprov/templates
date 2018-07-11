@@ -1,0 +1,24 @@
+{
+  "var" : {
+    "elementTitle" : [ "Summary2.pdf" ],
+    "elementType" : [ {
+      "@id" : "pic:Figure"
+    } ],
+    "element" : [ {
+      "@id" : "ex1:Summary2.pdf"
+    } ],
+    "paper" : [ {
+      "@id" : "ex0:180"
+    } ],
+    "title" : [ "An Online Validator for Provenance: Algorithmic Design, Testing, and API " ],
+    "paperType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "ex1" : "http://eprints.soton.ac.uk/361113/13/",
+    "ex0" : "http://www.orchid.ac.uk/eprints/id/eprint/"
+  }
+}

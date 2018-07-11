@@ -1,0 +1,80 @@
+{
+  "var" : {
+    "paper" : [ {
+      "@id" : "doi:10.1145/1210525.1210535"
+    } ],
+    "authorType" : [ {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    } ],
+    "author" : [ {
+      "@id" : "people:MunroeSteve"
+    }, {
+      "@id" : "people:MilesSimon"
+    }, {
+      "@id" : "people:MoreauLuc"
+    }, {
+      "@id" : "people:VazquezSalcedaJavier"
+    } ],
+    "attributionType" : [ {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    } ],
+    "year" : [ {
+      "@type" : "xsd:int",
+      "@value" : "2006"
+    } ],
+    "authorName" : [ "Munroe, Steve", "Miles, Simon", "Moreau, Luc", "V\\'azquez-Salceda, Javier" ],
+    "title" : [ "PrIMe: A Software Engineering Methodology for Developing Provenance-Aware Applications" ],
+    "beginPage" : [ {
+      "@type" : "xsd:int",
+      "@value" : "39"
+    } ],
+    "cited_paper" : [ {
+      "@id" : "doi:10.1007/11890850_4"
+    }, {
+      "@id" : "doi:10.1007/3-540-44450-5"
+    }, {
+      "@id" : "doi:10.1007/3-540-44503-X_20"
+    }, {
+      "@id" : "paper:GrothD311"
+    }, {
+      "@id" : "doi:10.1109/HPDC.2005.1520960"
+    }, {
+      "@id" : "doi:10.1007/11890850_5"
+    }, {
+      "@id" : "doi:10.1007/11890850"
+    }, {
+      "@id" : "paper:MilesTOSEM09"
+    }, {
+      "@id" : "paper:Woodruffthesis98"
+    }, {
+      "@id" : "paper:ZhaoSWT03"
+    } ],
+    "endPage" : [ {
+      "@type" : "xsd:int",
+      "@value" : "46"
+    } ],
+    "paperType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "doi" : "http://dx.doi.org/",
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "prov" : "http://www.w3.org/ns/prov#",
+    "people" : "http://www.ipaw.info/data/people/",
+    "paper" : "http://www.ipaw.info/data/paper/"
+  }
+}

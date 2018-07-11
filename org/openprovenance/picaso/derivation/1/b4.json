@@ -1,0 +1,24 @@
+{
+  "var" : {
+    "e2Type" : [ {
+      "@id" : "pic:Code"
+    } ],
+    "e2" : [ {
+      "@id" : "ex1:wikipedia-provenance"
+    } ],
+    "e2Title" : [ "wikipedia-provenance GitHub repository (by matthewgamble)" ],
+    "e1" : [ {
+      "@id" : "ex0:ProvToolbox"
+    } ],
+    "e1Title" : [ "ProvToolbox GitHub repository (by lucmoreau)" ],
+    "e1Type" : [ {
+      "@id" : "pic:Code"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "ex1" : "https://github.com/matthewgamble/",
+    "ex0" : "https://github.com/lucmoreau/"
+  }
+}

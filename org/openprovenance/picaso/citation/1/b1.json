@@ -1,0 +1,31 @@
+{
+  "var" : {
+    "cited_paper" : [ {
+      "@id" : "ex3:57"
+    }, {
+      "@id" : "ex3:98"
+    }, {
+      "@id" : "ex3:87"
+    } ],
+    "citedPaperType" : [ {
+      "@id" : "pic:Article"
+    }, {
+      "@id" : "pic:Article"
+    }, {
+      "@id" : "pic:Article"
+    } ],
+    "citedPaperTitle" : [ "Understanding domestic energy consumption through interactive visualisation: a field study", "Recommending energy tariffs and load shifting based on smart household usage profiling", "A Scalable Low-Cost Solution to Provide Personalized Home Heating Advice to Households" ],
+    "paper" : [ {
+      "@id" : "ex3:205"
+    } ],
+    "title" : [ "Energy Advisors at Work: Charity Work Practices to Support People in Fuel Poverty" ],
+    "paperType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "ex3" : "http://www.orchid.ac.uk/eprints/id/eprint/"
+  }
+}

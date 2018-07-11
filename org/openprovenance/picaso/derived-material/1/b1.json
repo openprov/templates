@@ -1,0 +1,24 @@
+{
+  "var" : {
+    "work" : [ {
+      "@id" : "ex0:AinyTAPP2014"
+    } ],
+    "derivedType" : [ {
+      "@id" : "pic:Slides"
+    } ],
+    "derivedTitle" : [ "Slides for Approximated Provenance for Complex Applications" ],
+    "derived" : [ {
+      "@id" : "ex1:Approximated-Prov-Davidson.pptx"
+    } ],
+    "workTitle" : [ "Approximated Provenance for Complex Applications" ],
+    "workType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "ex1" : "http://provenanceweek.dlr.de/media/medialibrary/2014/06/",
+    "ex0" : "http://www.ipaw.info/data/paper/"
+  }
+}

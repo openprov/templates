@@ -1,0 +1,21 @@
+{
+  "var" : {
+    "tweetContent" : [ "Nice - Data Provenance infrastructure from SRI -  http://data-provenance.googlecode.com  - @provenanceweek" ],
+    "work" : [ {
+      "@id" : "ex0:"
+    } ],
+    "tweet" : [ {
+      "@id" : "ex1:477350595511480320"
+    } ],
+    "workTitle" : [ "SPADE: Support for Provenance Auditing in Distributed Environments (data-provenance)" ],
+    "workType" : [ {
+      "@id" : "pic:Code"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "ex1" : "https://twitter.com/pgroth/status/",
+    "ex0" : "https://code.google.com/p/data-provenance/"
+  }
+}

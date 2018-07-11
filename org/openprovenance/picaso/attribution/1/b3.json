@@ -1,0 +1,50 @@
+{
+  "var" : {
+    "paper" : [ {
+      "@id" : "w3c:REC-prov-n-20130430"
+    } ],
+    "authorType" : [ {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    } ],
+    "author" : [ {
+      "@id" : "people:MoreauLuc"
+    }, {
+      "@id" : "people:MissierPaolo"
+    }, {
+      "@id" : "people:CheneyJames"
+    }, {
+      "@id" : "people:SoilandReyesStian"
+    } ],
+    "attributionType" : [ {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    } ],
+    "year" : [ {
+      "@type" : "xsd:int",
+      "@value" : "2013"
+    } ],
+    "authorName" : [ "Luc Moreau", "Paolo Missier", "James Cheney", "Stian Soiland-Reyes" ],
+    "title" : [ "PROV-N: The Provenance Notation" ],
+    "paperType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "prov" : "http://www.w3.org/ns/prov#",
+    "people" : "http://www.ipaw.info/data/people/",
+    "w3c" : "http://www.w3.org/TR/2013/"
+  }
+}

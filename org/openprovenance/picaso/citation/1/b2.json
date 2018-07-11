@@ -1,0 +1,37 @@
+{
+  "var" : {
+    "cited_paper" : [ {
+      "@id" : "ex1:71"
+    }, {
+      "@id" : "ex1:159"
+    }, {
+      "@id" : "ex3:REC-prov-dm-20130430"
+    }, {
+      "@id" : "ex4:352665"
+    } ],
+    "citedPaperType" : [ {
+      "@id" : "pic:Article"
+    }, {
+      "@id" : "pic:Book"
+    }, {
+      "@id" : "pic:Article"
+    }, {
+      "@id" : "pic:Article"
+    } ],
+    "citedPaperTitle" : [ "Network Analysis on Provenance Graphs from a Crowdsourcing Application", "Provenance: An Introduction to PROV.", "PROV-DM: The PROV Data Model", "The PROV-JSON serialization" ],
+    "paper" : [ {
+      "@id" : "ex1:215"
+    } ],
+    "title" : [ "ProvStore: a public provenance repository " ],
+    "paperType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "ex4" : "http://eprints.soton.ac.uk/id/eprint/",
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "ex3" : "http://www.w3.org/TR/2013/",
+    "ex1" : "http://www.orchid.ac.uk/eprints/id/eprint/"
+  }
+}

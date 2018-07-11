@@ -1,0 +1,41 @@
+{
+  "var" : {
+    "projectTitle" : [ "DepositMO" ],
+    "endTime" : [ {
+      "@type" : "xsd:dateTime",
+      "@value" : "2012-01-31T00:00:00"
+    } ],
+    "person" : [ {
+      "@id" : "ecsid:6268"
+    }, {
+      "@id" : "ecsid:387"
+    }, {
+      "@id" : "ecsid:9455"
+    }, {
+      "@id" : "ecsid:60"
+    } ],
+    "startTime" : [ {
+      "@type" : "xsd:dateTime",
+      "@value" : "2010-07-01T00:00:00"
+    } ],
+    "personName" : [ "Dr David Tarrant", "Dr Steve M Hitchcock", "Dr David Tarrant", "Leslie Carr" ],
+    "project" : [ {
+      "@id" : "ecsprojid:755"
+    } ],
+    "role" : [ {
+      "@id" : "pic:Researcher"
+    }, {
+      "@id" : "pic:Researcher"
+    }, {
+      "@id" : "pic:Principal_Investigator"
+    }, {
+      "@id" : "pic:Principal_Investigator"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "ecsid" : "http://id.ecs.soton.ac.uk/person/",
+    "ecsprojid" : "http://id.ecs.soton.ac.uk/project/",
+    "pic" : "http://www.ipaw.info/ns/picaso#"
+  }
+}

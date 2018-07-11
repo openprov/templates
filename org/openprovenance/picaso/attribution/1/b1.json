@@ -1,0 +1,150 @@
+{
+  "var" : {
+    "paper" : [ {
+      "@id" : "paper:MoreauOPM101"
+    } ],
+    "authorType" : [ {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    }, {
+      "@id" : "prov:Person"
+    } ],
+    "author" : [ {
+      "@id" : "people:MoreauLuc"
+    }, {
+      "@id" : "people:PlaleBeth"
+    }, {
+      "@id" : "people:MilesSimon"
+    }, {
+      "@id" : "people:GobleCarole"
+    }, {
+      "@id" : "people:MissierPaolo"
+    }, {
+      "@id" : "people:BargaRogerS"
+    }, {
+      "@id" : "people:SimmhanYogeshL"
+    }, {
+      "@id" : "people:FutrelleJoe"
+    }, {
+      "@id" : "people:McGrathRobertE"
+    }, {
+      "@id" : "people:MyersJim"
+    }, {
+      "@id" : "people:PaulsonPatrick"
+    }, {
+      "@id" : "people:BowersShawn"
+    }, {
+      "@id" : "people:LudaescherBertram"
+    }, {
+      "@id" : "people:KwasnikowskaNatalia"
+    }, {
+      "@id" : "people:denBusscheJanVan"
+    }, {
+      "@id" : "people:EllkvistTommy"
+    }, {
+      "@id" : "people:FreireJuliana"
+    }, {
+      "@id" : "people:GrothPaul"
+    } ],
+    "attributionType" : [ {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    }, {
+      "@id" : "pic:Author"
+    } ],
+    "authorName" : [ "Luc Moreau (Editor)", "Beth Plale", "Simon Miles", "Carole Goble", "Paolo Missier", "Roger S. Barga", "Yogesh L. Simmhan", "Joe Futrelle", "Robert E. McGrath", "Jim Myers", "Patrick Paulson", "Shawn Bowers", "Bertram Ludaescher", "Natalia Kwasnikowska", "Jan Van den Bussche", "Tommy Ellkvist", "Juliana Freire", "Paul Groth" ],
+    "title" : [ "The Open Provenance Model (v1.01)" ],
+    "cited_paper" : [ {
+      "@id" : "doi:10.1145/1168092.1168102"
+    }, {
+      "@id" : "paper:FirstWorkshopOPM08"
+    }, {
+      "@id" : "paper:GrothOPMWorkshopMinutes"
+    }, {
+      "@id" : "paper:MilesChallenge07"
+    }, {
+      "@id" : "doi:10.1007/11890850"
+    }, {
+      "@id" : "paper:MoreauOPM100"
+    }, {
+      "@id" : "doi:10.1002/cpe.1233"
+    }, {
+      "@id" : "paper:SecondChallengePC07"
+    }, {
+      "@id" : "doi:10.1145/1084805.1084812"
+    } ],
+    "paperType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "doi" : "http://dx.doi.org/",
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "prov" : "http://www.w3.org/ns/prov#",
+    "people" : "http://www.ipaw.info/data/people/",
+    "paper" : "http://www.ipaw.info/data/paper/"
+  }
+}

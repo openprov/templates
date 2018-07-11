@@ -1,0 +1,25 @@
+{
+  "var" : {
+    "presenterName" : [ "Victor Cuevas-Vicenttin" ],
+    "presenterType" : [ {
+      "@id" : "prov:Person"
+    } ],
+    "presenter" : [ {
+      "@id" : "ex0:CuevasVicenttinVictor"
+    } ],
+    "session" : [ {
+      "@id" : "ex1:session5"
+    } ]
+  },
+  "vargen" : {
+    "presenting" : [ {
+      "@id" : "uuid:4f319c1f-ce26-4bc7-9e3d-364843c42856"
+    } ]
+  },
+  "context" : {
+    "prov" : "http://www.w3.org/ns/prov#",
+    "uuid" : "urn:uuid:",
+    "ex1" : "http://www.ipaw.info/ipaw14/",
+    "ex0" : "http://www.ipaw.info/data/people/"
+  }
+}

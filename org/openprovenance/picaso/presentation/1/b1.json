@@ -1,0 +1,34 @@
+{
+  "var" : {
+    "presenterName" : [ "Roly Perera" ],
+    "presenterType" : [ {
+      "@id" : "prov:Person"
+    } ],
+    "presenter" : [ {
+      "@id" : "ex1:PereraRoly"
+    } ],
+    "session" : [ {
+      "@id" : "ex2:session4"
+    } ],
+    "paper" : [ {
+      "@id" : "ex0:CheneyIPAW2014"
+    } ],
+    "title" : [ "An Analytical Survey of Provenance Sanitization" ],
+    "paperType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : {
+    "presenting" : [ {
+      "@id" : "uuid:363e409c-00a9-42e2-b7b6-3d494198070e"
+    } ]
+  },
+  "context" : {
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "prov" : "http://www.w3.org/ns/prov#",
+    "uuid" : "urn:uuid:",
+    "ex2" : "http://www.ipaw.info/ipaw14/",
+    "ex1" : "http://www.ipaw.info/data/people/",
+    "ex0" : "http://www.ipaw.info/data/paper/"
+  }
+}

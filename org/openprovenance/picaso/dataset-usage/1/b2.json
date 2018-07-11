@@ -1,0 +1,29 @@
+{
+  "var" : {
+    "work" : [ {
+      "@id" : "ex0:265181"
+    } ],
+    "datasetTitle" : [ "DBpedia 2.0", "DBLP RKBExplorer" ],
+    "dataset" : [ {
+      "@id" : "ex1:dbpedia2_0"
+    }, {
+      "@id" : "ex2:"
+    } ],
+    "workTitle" : [ "URI Disambiguation in the Context of Linked Data" ],
+    "datasetType" : [ {
+      "@id" : "pic:Dataset"
+    }, {
+      "@id" : "pic:Dataset"
+    } ],
+    "workType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "ex2" : "http://dblp.rkbexplorer.com/",
+    "ex1" : "http://data.usewod.org/prov/dataset/",
+    "ex0" : "http://eprints.soton.ac.uk/id/eprint/"
+  }
+}

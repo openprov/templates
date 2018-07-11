@@ -1,0 +1,50 @@
+{
+  "var" : {
+    "elementTitle" : [ "Figure 1:  The three Starting Point classes and the properties that relate them. The diagrams in this document depict Entities as yellow ovals, Activities as blue rectangles, and Agents as orange pentagons. The responsibility properties are shown in pink.", "Figure 2. A graphical illustration of the PROV-O in Example 1, showing how the three Starting Point classes relate. The diagrams in this document depict Entities as yellow ovals, Activities as blue rectangles, and Agents as orange pentagons. The responsibility properties are shown in pink.", "Figure 3. The expanded terms build upon those in the Starting Points section. The diagrams in this document depict Entities as yellow ovals, Activities as blue rectangles, and Agents as orange pentagons. The domain of prov:atLocation (prov:Activity or prov:Entity or prov:Agent or prov:InstantaneousEvent) is not illustrated.", "Figure 4. An illustration of the PROV-O assertions in Example 2, where Derek published two versions of a blog for the National Newspaper, Inc. The diagrams in this document depict Entities as yellow ovals, Activities as blue rectangles, and Agents as orange pentagons. The responsibility properties are shown in pink.", "Figure 5: Illustration of the properties and classes to use (in blue) to qualify the starting point and expanded influence relations (dotted black). The diagrams in this document depict Entities as ovals, Activities as rectangles, and Agents as pentagons. Quotation, Revision, and PrimarySource are omitted because they are special forms of Derivation and follow the same pattern as subfigure g." ],
+    "elementType" : [ {
+      "@id" : "pic:Figure"
+    }, {
+      "@id" : "pic:Figure"
+    }, {
+      "@id" : "pic:Figure"
+    }, {
+      "@id" : "pic:Figure"
+    }, {
+      "@id" : "pic:Figure"
+    } ],
+    "element" : [ {
+      "@id" : "w3c:REC-prov-o-20130430/diagrams/starting-points.svg"
+    }, {
+      "@id" : "w3c:REC-prov-o-20130430/diagrams/starting-points-example.svg"
+    }, {
+      "@id" : "w3c:REC-prov-o-20130430/diagrams/expanded.svg"
+    }, {
+      "@id" : "w3c:REC-prov-o-20130430/diagrams/expanded-terms-example-bundlePost.svg"
+    }, {
+      "@id" : "w3c:REC-prov-o-20130430/diagrams/qualified-patterns.svg"
+    } ],
+    "link" : [ {
+      "@id" : "w3c:REC-prov-o-20130430/#starting-points-figure"
+    }, {
+      "@id" : "w3c:REC-prov-o-20130430/#narrative-example-simple-1-figure"
+    }, {
+      "@id" : "w3c:REC-prov-o-20130430/#expanded-terms-figure"
+    }, {
+      "@id" : "w3c:REC-prov-o-20130430/#expanded-example-illustration-1"
+    }, {
+      "@id" : "w3c:REC-prov-o-20130430/#qualified-terms-figure"
+    } ],
+    "paper" : [ {
+      "@id" : "w3c:REC-prov-o-20130430"
+    } ],
+    "title" : [ "PROV-O: The PROV Ontology" ],
+    "paperType" : [ {
+      "@id" : "pic:Article"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "w3c" : "http://www.w3.org/TR/2013/"
+  }
+}

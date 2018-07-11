@@ -1,0 +1,24 @@
+{
+  "var" : {
+    "e2Type" : [ {
+      "@id" : "pic:Figure"
+    } ],
+    "e2" : [ {
+      "@id" : "eprints:13/Summary2.pdf"
+    } ],
+    "e2Title" : [ "Summary2.pdf" ],
+    "e1" : [ {
+      "@id" : "w3c:REC-prov-dm-20130430/uml/essentials.png"
+    } ],
+    "e1Title" : [ "essentials.png" ],
+    "e1Type" : [ {
+      "@id" : "pic:Figure"
+    } ]
+  },
+  "vargen" : { },
+  "context" : {
+    "eprints" : "http://eprints.soton.ac.uk/361113/",
+    "pic" : "http://www.ipaw.info/ns/picaso#",
+    "w3c" : "http://www.w3.org/TR/2013/"
+  }
+}
