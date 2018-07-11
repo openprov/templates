@@ -9,58 +9,58 @@ relations between scientific objects like papers, datasets, slides, etc.
 
 Adding authors, editors, etc. to publications
 
-[![Atribution template](attribution/2.png)](attribution)
+[![Atribution template](attribution/2.svg)](attribution)
 
 ## Citation
 
 Links to cited work
 
-[![Citation template](citation/1.png)](citation)
+[![Citation template](citation/1.svg)](citation)
 
 ## Work-Element
 
 Figures and tables in a paper
 
-[![Work-Element template](work-element/1.png)](work-element)
+[![Work-Element template](work-element/1.svg)](work-element)
 
 ## Dataset-Usage
 
 Dataset used in the preparation of a paper
 
-[![Dataset-Usage template](dataset-usage/1.png)](dataset-usage)
+[![Dataset-Usage template](dataset-usage/1.svg)](dataset-usage)
 
 ## Derivation
 
 Generic derivation between two entities
 
-[![Derivation template](derivation/1.png)](derivation)
+[![Derivation template](derivation/1.svg)](derivation)
 
 ## Derived-Material
 
 Posters/slides derived from a published work
 
-[![Derived-Material template](derived-material/1.png)](derived-material)
+[![Derived-Material template](derived-material/1.svg)](derived-material)
 
 ## Presentation
 
 Presenter presenting slides from their papers
 
-[![Presentation template](presentation/2.png)](presentation)
+[![Presentation template](presentation/2.svg)](presentation)
 
 ## Tweet
 
 Tweets mentioning a scientific work
 
-[![Tweet template](tweet/1.png)](tweet)
+[![Tweet template](tweet/1.svg)](tweet)
 
 ## Conference-Session
 
 Sessions in a conference’s program
 
-[![Conference-Session template](conference-session/1.png)](conference-session)
+[![Conference-Session template](conference-session/1.svg)](conference-session)
 
 ## Project
 
 People in a research project
 
-[![Project template](project/1.png)](project)
+[![Project template](project/1.svg)](project)
