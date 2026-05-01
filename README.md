@@ -70,7 +70,7 @@ Optionally, in the `footemplate` folder, we can also find png visualisations of 
 ## 3. Template Expansion Microservice
 
 For convenience, we will aim to expose templates directly through openprovenance at 
-https://openprovenance.org/templates/
+https://openprovenance.org/templates-legacy/
 
 
 
